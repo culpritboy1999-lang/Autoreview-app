@@ -917,5 +917,53 @@
       "service"
     ],
     "sentiment": "positive"
+  },
+  {
+    "id": 53,
+    "businessId": 2,
+    "googleReviewId": "demo-1790085120677-swljze",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-09-22 13:52:00",
+    "fetchedAt": "2026-09-22 13:52:00",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at The Rustic Spoon. See you again soon!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-22 13:52:00",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 54,
+    "businessId": 4,
+    "googleReviewId": "demo-1790085120677-3fjlbe",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-09-22 13:52:00",
+    "fetchedAt": "2026-09-22 13:52:00",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Urban Verde — can't wait to welcome you back!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-22 13:52:00",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 55,
+    "businessId": 5,
+    "googleReviewId": "demo-1790085120677-o2b2kl",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-09-22 13:52:00",
+    "fetchedAt": "2026-09-22 13:52:00",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Danube Bites — can't wait to welcome you back!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-22 13:52:00",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
