@@ -1029,5 +1029,53 @@
     "repliedAt": "2026-09-22 16:41:34",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 60,
+    "businessId": 1,
+    "googleReviewId": "demo-1790096260301-y5vnww",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-09-22 16:57:40",
+    "fetchedAt": "2026-09-22 16:57:40",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Café Aroma. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Team Café Aroma ☕",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 61,
+    "businessId": 3,
+    "googleReviewId": "demo-1790096260620-mmc608",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-09-22 16:57:40",
+    "fetchedAt": "2026-09-22 16:57:40",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to Golden Crust Bakery for a flawless visit.\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
+  },
+  {
+    "id": 62,
+    "businessId": 5,
+    "googleReviewId": "demo-1790096260835-jp93f5",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-09-22 16:57:40",
+    "fetchedAt": "2026-09-22 16:57:40",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Danube Bites — can't wait to welcome you back!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-22 16:57:40",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
