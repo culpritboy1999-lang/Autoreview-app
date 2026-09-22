@@ -40,18 +40,19 @@
   }
 
   /* ---- data files ---- */
-  function filePath(name) { return CFG.dataDir + '/' + name; }
+  function publicFilePath(name) { return (CFG.dataDir || 'data') + '/' + name; }
+  function repoFilePath(name) { return (CFG.repoDataDir || 'docs/data') + '/' + name; }
 
   // Public read: relative fetch (served by GitHub Pages — fast, no rate limits)
   function readPublic(name) {
-    return fetch(filePath(name), { cache: 'no-cache' }).then(function (res) {
+    return fetch(publicFilePath(name), { cache: 'no-cache' }).then(function (res) {
       if (!res.ok) throw new Error('Cannot load ' + name + ' (' + res.status + ')');
       return res.json();
     });
   }
   // Current blob sha (needed for updates via Contents API)
   function shaOf(name) {
-    return api('/repos/' + CFG.repoFull + '/contents/' + filePath(name)).then(function (r) { return r.sha; });
+    return api('/repos/' + CFG.repoFull + '/contents/' + repoFilePath(name)).then(function (r) { return r.sha; });
   }
   // Commit a JSON file to the repo
   function writeFile(name, value, message) {
@@ -59,7 +60,7 @@
       if (e.status === 404) return undefined; // new file
       throw e;
     }).then(function (sha) {
-      return api('/repos/' + CFG.repoFull + '/contents/' + filePath(name), {
+      return api('/repos/' + CFG.repoFull + '/contents/' + repoFilePath(name), {
         method: 'PUT',
         body: {
           message: message || 'update ' + name + ' [skip ci]',

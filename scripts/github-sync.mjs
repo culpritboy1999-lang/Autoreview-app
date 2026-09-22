@@ -34,7 +34,7 @@ const now = () => new Date().toISOString().slice(0, 19).replace('T', ' ');
 
 /* ---------------- AI providers (free tiers, same chain as the server app) --------------- */
 const providers = [
-  env.OPENROUTER_API_KEY && { id: 'openrouter', model: env.OPENROUTER_MODEL || 'google/gemma-3-27b-it:free', key: env.OPENROUTER_API_KEY, url: 'https://openrouter.ai/api/v1/chat/completions' },
+  env.OPENROUTER_API_KEY && { id: 'openrouter', model: env.OPENROUTER_MODEL || 'google/gemma-2-9b-it:free', key: env.OPENROUTER_API_KEY, url: 'https://openrouter.ai/api/v1/chat/completions' },
   env.GROQ_API_KEY && { id: 'groq', model: env.GROQ_MODEL || 'gemma2-9b-it', key: env.GROQ_API_KEY, url: 'https://api.groq.com/openai/v1/chat/completions' },
   env.GOOGLE_AI_API_KEY && { id: 'google', model: env.GOOGLE_AI_MODEL || 'gemini-2.0-flash', key: env.GOOGLE_AI_API_KEY, url: `https://generativelanguage.googleapis.com/v1beta/models/${env.GOOGLE_AI_MODEL || 'gemini-2.0-flash'}:generateContent` },
 ].filter(Boolean);

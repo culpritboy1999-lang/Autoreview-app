@@ -79,10 +79,10 @@
     "text": "Waited 20 minutes for a simple cappuccino while staff chatted behind the counter. The cake was dry too. Expected much more from the reviews.",
     "postedAt": "2026-09-13 13:47:43",
     "fetchedAt": "2026-09-13 13:47:43",
-    "status": "pending_approval",
+    "status": "replied",
     "replyText": "Petra, we’re truly sorry about your experience at Café Aroma. This isn’t the standard we hold ourselves to, and your feedback has gone straight to our team. We’d genuinely love another chance to show you our best.\n— Team Café Aroma ☕",
-    "replySource": "ai_draft",
-    "repliedAt": null,
+    "replySource": "ai_approved",
+    "repliedAt": "2026-09-22 15:32:08",
     "topics": [
       "wait time",
       "food quality",
@@ -152,10 +152,10 @@
     "text": "Rude service today. My croissant was burnt and when I politely mentioned it the barista rolled her eyes. Won’t come back.",
     "postedAt": "2026-09-01 13:47:43",
     "fetchedAt": "2026-09-01 13:47:43",
-    "status": "pending_approval",
+    "status": "replied",
     "replyText": "Réka, we’re truly sorry about your experience at Café Aroma. This isn’t the standard we hold ourselves to, and your feedback has gone straight to our team. We’d genuinely love another chance to show you our best.\n— Team Café Aroma ☕",
-    "replySource": "ai_draft",
-    "repliedAt": null,
+    "replySource": "ai_approved",
+    "repliedAt": "2026-09-22 15:32:12",
     "topics": [
       "food quality",
       "service"
@@ -997,5 +997,37 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 58,
+    "businessId": 1,
+    "googleReviewId": "demo-1790091135770-w9c5a9",
+    "author": "Yuki N.",
+    "rating": 5,
+    "text": "The barista drew a tiny frog in my latte art and I thought about it all day. Warm, cozy, honest coffee.",
+    "postedAt": "2026-09-22 15:32:15",
+    "fetchedAt": "2026-09-22 15:32:15",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Yuki! Reviews like yours make our day. We’re thrilled you enjoyed your visit to Café Aroma — it means the world to the whole team. See you again soon!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-22 15:32:15",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 59,
+    "businessId": 1,
+    "googleReviewId": "demo-1790095293964-6t2ow0",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-09-22 16:41:33",
+    "fetchedAt": "2026-09-22 16:41:33",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Café Aroma. See you again soon!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-22 16:41:34",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
