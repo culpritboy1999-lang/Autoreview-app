@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Café Aroma",
+    "category": "Coffee shop",
+    "address": "Demo District V, Budapest",
+    "connection": "demo",
+    "googleLocationName": "locations/demo_cafe-aroma",
+    "placeId": "demo_place_cafe-aroma",
+    "ratingAvg": 4.2,
+    "reviewsTotal": 12,
+    "createdAt": "2026-09-22 13:47:43",
+    "brand": {
+      "tone": "warm",
+      "about": "Family-run specialty coffee house in Budapest since 2016. We roast our own single-origin beans and bake everything fresh in-house.",
+      "signature": "— Team Café Aroma ☕",
+      "language": "English",
+      "rulesDo": "Thank guests by name. Mention our house-made pastries or single-origin roasts when relevant. Invite guests back for a free filter refill on their next visit.",
+      "rulesDont": "Never offer refunds or compensation. Never use slang. Do not mention prices.",
+      "emojiPolicy": "sparingly",
+      "replyLength": "short"
+    }
+  },
+  {
+    "id": 2,
+    "name": "The Rustic Spoon",
+    "category": "Restaurant",
+    "address": "Demo District VII, Budapest",
+    "connection": "demo",
+    "googleLocationName": "locations/demo_rustic-spoon",
+    "placeId": "demo_place_rustic-spoon",
+    "ratingAvg": 3.9,
+    "reviewsTotal": 11,
+    "createdAt": "2026-09-22 13:47:43",
+    "brand": {
+      "tone": "professional",
+      "about": "Farm-to-table restaurant in District VII focused on slow food, local farms and a candle-lit courtyard. Our goulash is braised for eight hours.",
+      "signature": "— The Rustic Spoon Team",
+      "language": "English",
+      "rulesDo": "Always thank the guest for the detailed feedback. Reference the specific dish they mentioned. Invite guests to try the chef’s tasting menu next time.",
+      "rulesDont": "Never blame the guest. Never copy-paste generic replies. No exclamation marks — more than one per reply.",
+      "emojiPolicy": "none",
+      "replyLength": "medium"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Golden Crust Bakery",
+    "category": "Bakery",
+    "address": "Demo District VI, Budapest",
+    "connection": "demo",
+    "googleLocationName": "locations/demo_golden-crust",
+    "placeId": "demo_place_golden-crust",
+    "ratingAvg": 4.3,
+    "reviewsTotal": 10,
+    "createdAt": "2026-09-22 13:47:43",
+    "brand": {
+      "tone": "playful",
+      "about": "Small-batch sourdough bakery. Everything is mixed by hand, fermented overnight and out of the oven by 7am. Famous for our 48-hour croissants.",
+      "signature": "— Your friends at Golden Crust 🥐",
+      "language": "English",
+      "rulesDo": "Be cheerful and a little playful. Mention what time fresh batches come out of the oven (7am loaves, 9am croissants). Invite people to try the rye sourdough.",
+      "rulesDont": "Never be defensive about sell-outs — thank people for wanting more. No corporate jargon.",
+      "emojiPolicy": "freely",
+      "replyLength": "short"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Urban Verde",
+    "category": "Vegan bistro",
+    "address": "Demo District IX, Budapest",
+    "connection": "demo",
+    "googleLocationName": "locations/demo_urban-verde",
+    "placeId": "demo_place_urban-verde",
+    "ratingAvg": 4.2,
+    "reviewsTotal": 9,
+    "createdAt": "2026-09-22 13:47:43",
+    "brand": {
+      "tone": "friendly",
+      "about": "Zero-waste vegan bistro. Everything plant-based, much of it from Budapest community gardens. Our cashew burrata is legendary — try it with the beet tartare.",
+      "signature": "— Urban Verde 🌱",
+      "language": "English",
+      "rulesDo": "Celebrate guests trying plant-based food for the first time. Mention our zero-waste mission naturally. Suggest a specific dish for their next visit.",
+      "rulesDont": "Never lecture anyone about veganism. Never guilt-trip meat eaters. Keep it food-first.",
+      "emojiPolicy": "sparingly",
+      "replyLength": "medium"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Danube Bites",
+    "category": "Street food",
+    "address": "Demo Riverside Market, Budapest",
+    "connection": "demo",
+    "googleLocationName": "locations/demo_danube-bites",
+    "placeId": "demo_place_danube-bites",
+    "ratingAvg": 4.3,
+    "reviewsTotal": 10,
+    "createdAt": "2026-09-22 13:47:43",
+    "brand": {
+      "tone": "quirky",
+      "about": "Street food stall at the riverside market. Crispy lángos, smoked sausage from a Mangalica farm and chimney cake grilled to order until midnight.",
+      "signature": "— Danube Bites crew 🧡",
+      "language": "English",
+      "rulesDo": "Keep it casual and fun, like talking to a friend at the counter. Use Hungarian food names (lángos, kürtőskalács). Tease gently about the garlic sauce being “legendary”.",
+      "rulesDont": "No formal language. Never promise shorter queues. Two emojis max.",
+      "emojiPolicy": "freely",
+      "replyLength": "short"
+    }
+  }
+]

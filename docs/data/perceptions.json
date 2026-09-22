@@ -1,0 +1,215 @@
+{
+  "1": {
+    "about": "Café Aroma collects strongly positive feedback overall — about 83% of reviewers rate it 4★ or 5★, with words like “best”, “flat”, “white” recurring across happy reviews.",
+    "famousFor": [
+      {
+        "name": "Best",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "Flat",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "White",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "Baristas",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "Morning",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "Cinnamon",
+        "why": "praised in 2+ reviews"
+      }
+    ],
+    "thingsToNotice": [
+      "can mean waits at busy times",
+      "occasional reports on food consistency",
+      "service can be uneven per some guests"
+    ],
+    "atmosphere": "Guests mostly describe the vibe warmly and keep coming back.",
+    "bestFor": [
+      "Regulars & locals",
+      "Visitors exploring the area",
+      "Food-first travellers"
+    ],
+    "sentimentSummary": "83% positive · 0% mixed · 17% negative across 12 reviews.",
+    "engine": "brand-rules-engine",
+    "generatedAt": "2026-09-22 13:47:43"
+  },
+  "2": {
+    "about": "The Rustic Spoon collects strongly positive feedback overall — about 73% of reviewers rate it 4★ or 5★, with words like “menu”, “goulash”, “courtyard” recurring across happy reviews.",
+    "famousFor": [
+      {
+        "name": "Menu",
+        "why": "praised in 4+ reviews"
+      },
+      {
+        "name": "Goulash",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "Courtyard",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "Duck",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "Tasting",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "Sour-cherry",
+        "why": "praised in 2+ reviews"
+      }
+    ],
+    "thingsToNotice": [
+      "can mean waits at busy times",
+      "some find prices on the higher side",
+      "occasional reports on food consistency",
+      "service can be uneven per some guests"
+    ],
+    "atmosphere": "Guests mostly describe the vibe warmly and keep coming back.",
+    "bestFor": [
+      "Regulars & locals",
+      "Visitors exploring the area",
+      "Food-first travellers"
+    ],
+    "sentimentSummary": "73% positive · 9% mixed · 18% negative across 11 reviews.",
+    "engine": "brand-rules-engine",
+    "generatedAt": "2026-09-22 13:47:43"
+  },
+  "3": {
+    "about": "Golden Crust Bakery collects strongly positive feedback overall — about 80% of reviewers rate it 4★ or 5★, with words like “croissants”, “worth”, “sourdough” recurring across happy reviews.",
+    "famousFor": [
+      {
+        "name": "Croissants",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "Worth",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "Sourdough",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "-hour",
+        "why": "praised in 1+ reviews"
+      },
+      {
+        "name": "Genuinely",
+        "why": "praised in 1+ reviews"
+      },
+      {
+        "name": "Shatter",
+        "why": "praised in 1+ reviews"
+      }
+    ],
+    "thingsToNotice": [
+      "can mean waits at busy times",
+      "popular items can sell out early"
+    ],
+    "atmosphere": "Guests mostly describe the vibe warmly and keep coming back.",
+    "bestFor": [
+      "Regulars & locals",
+      "Visitors exploring the area",
+      "Food-first travellers"
+    ],
+    "sentimentSummary": "80% positive · 10% mixed · 10% negative across 10 reviews.",
+    "engine": "brand-rules-engine",
+    "generatedAt": "2026-09-22 13:47:43"
+  },
+  "4": {
+    "about": "Urban Verde collects strongly positive feedback overall — about 78% of reviewers rate it 4★ or 5★, with words like “burrata”, “vegan”, “cashew” recurring across happy reviews.",
+    "famousFor": [
+      {
+        "name": "Burrata",
+        "why": "praised in 3+ reviews"
+      },
+      {
+        "name": "Vegan",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "Cashew",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "Beet",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "Tartare",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "Best",
+        "why": "praised in 2+ reviews"
+      }
+    ],
+    "thingsToNotice": [
+      "some find prices on the higher side",
+      "gets crowded and noisy at peak hours"
+    ],
+    "atmosphere": "Guests mostly describe the vibe warmly and keep coming back.",
+    "bestFor": [
+      "Regulars & locals",
+      "Visitors exploring the area",
+      "Food-first travellers"
+    ],
+    "sentimentSummary": "78% positive · 11% mixed · 11% negative across 9 reviews.",
+    "engine": "brand-rules-engine",
+    "generatedAt": "2026-09-22 13:47:43"
+  },
+  "5": {
+    "about": "Danube Bites collects strongly positive feedback overall — about 80% of reviewers rate it 4★ or 5★, with words like “lángos”, “garlic”, “crispy” recurring across happy reviews.",
+    "famousFor": [
+      {
+        "name": "Lángos",
+        "why": "praised in 4+ reviews"
+      },
+      {
+        "name": "Garlic",
+        "why": "praised in 3+ reviews"
+      },
+      {
+        "name": "Crispy",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "Order",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "Smoky",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "Stall",
+        "why": "praised in 2+ reviews"
+      }
+    ],
+    "thingsToNotice": [
+      "occasional reports on food consistency",
+      "popular items can sell out early"
+    ],
+    "atmosphere": "Guests mostly describe the vibe warmly and keep coming back.",
+    "bestFor": [
+      "Regulars & locals",
+      "Visitors exploring the area",
+      "Food-first travellers"
+    ],
+    "sentimentSummary": "80% positive · 10% mixed · 10% negative across 10 reviews.",
+    "engine": "brand-rules-engine",
+    "generatedAt": "2026-09-22 13:47:43"
+  }
+}
