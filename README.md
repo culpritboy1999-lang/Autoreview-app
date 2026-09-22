@@ -1,12 +1,52 @@
 # ⭐ AutoReview — Auto Google Review Responder SaaS
 
-A complete, working SaaS platform where **shop owners connect their Google Business Profile** and let AI
-answer their Google reviews in their own brand voice — plus a **public perception search** where anyone
-can look up what guests collectively say about a shop.
+A complete SaaS platform where **shop owners connect their Google Business Profile** and let AI answer
+their Google reviews in their own brand voice — plus a **public perception search** where anyone can
+look up what guests collectively say about a shop.
+
+**Two ways to run it — pick one:**
+
+| | 🐙 **GitHub-native (no server)** | 🖥️ **Self-hosted Node app** |
+|---|---|---|
+| Frontend | Static SPA in [`docs/`](docs), served by **GitHub Pages** | Express + EJS (`server.js`) |
+| Backend | **The repo itself** — data as JSON in `docs/data/`, writes via GitHub Contents API | SQLite + Express API |
+| Auto-responder | **GitHub Actions** (`sync.yml`, every 30 min) | Built-in worker (every 90 s) |
+| Owner login | **GitHub token** (repo write access = owner) | Email/password + Google OAuth |
+| AI | Free Gemma 3 / Groq / Gemini — in-browser or via Actions secrets | Same chain, server-side |
+| Live Google sync | Add `GOOGLE_*` repo secrets → Actions posts to Google | Full OAuth connect in-app |
 
 ---
 
-## What it does
+## 🐙 Run it directly on GitHub (recommended start)
+
+The app lives in [`docs/`](docs) and is deployed by the included workflow the moment the branch
+merges to `main` (Pages source: **GitHub Actions** — the deploy workflow enables it automatically).
+Live URL after merge: `https://<owner>.github.io/<repo>/`
+
+**How it works with zero servers:**
+1. **GitHub Pages** serves the static frontend (`docs/`).
+2. **Public data** (shops, reviews, perceptions) is read straight from `docs/data/*.json` — served statically, no API calls needed.
+3. **GitHub Actions** runs `scripts/github-sync.mjs` every 30 minutes: new reviews come in, AI writes brand-aware replies, 4★–5★ are auto-posted, ≤3★ are parked as drafts — and the updated JSON is **committed to the repo**, which instantly updates the live site.
+4. **Shop owners sign in with a GitHub token** — a fine-grained PAT with *Contents: Read and write* on this repo. Approving a reply, editing brand rules, adding a business → each action is a clean Git commit. The repo *is* the backend.
+
+**Try it now:**
+1. Open the Pages URL (or `index.html` served from any static host).
+2. Browse shops → open a perception page.
+3. **Sign in** with a GitHub token (create: *Settings → Developer settings → Fine-grained tokens*, scope to this repo, Contents + Actions read/write).
+4. Dashboard → simulate an incoming review → watch the AI draft/auto-reply → approve drafts.
+
+**Optional repo secrets** (Settings → Secrets → Actions) to upgrade from demo simulation to live Google:
+- `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `GOOGLE_REFRESH_TOKEN` (OAuth scope `https://www.googleapis.com/auth/business.manage`) → the worker pulls your real reviews and **posts replies directly to Google**
+- `OPENROUTER_API_KEY` or `GROQ_API_KEY` or `GOOGLE_AI_API_KEY` → LLM replies instead of the built-in rules engine (defaults: `google/gemma-3-27b-it:free` → `gemma2-9b-it` → `gemini-2.0-flash`)
+
+---
+
+## 🖥️ Self-hosted Node app
+
+```bash
+npm install
+npm start          # → http://localhost:3000
+```
 
 ### 1. Shop owner accounts & login
 - Email + password signup/login (bcrypt-hashed, HttpOnly session cookies, origin-guarded forms)
@@ -71,17 +111,12 @@ The app uses the best **free** chat models, picked automatically by which API ke
 - cookie-session (HttpOnly, SameSite=Lax) + origin guard on mutations + rate limiting on auth/search
 - Free-tier AI via OpenRouter/Groq/Google AI with automatic fallback
 
-## Run it
-
-```bash
-npm install
-npm start          # → http://localhost:3000
-```
+## Setup details (self-hosted)
 
 Optional: `cp .env.example .env` and add keys (AI key, Google OAuth, Places API). With no keys the app
 runs fully in Demo Mode — perfect for trying everything immediately.
 
-### Enabling live Google access
+### Enabling live Google access (self-hosted)
 1. Google Cloud Console → create an **OAuth Web client**
 2. Enable **Business Profile API** and **My Business Account Management API**
 3. Register redirect URIs on the client:
@@ -93,17 +128,28 @@ runs fully in Demo Mode — perfect for trying everything immediately.
 ## Project layout
 
 ```
-server.js               Express bootstrap
-lib/
-  db.js                 SQLite schema + queries
-  seed.js               Demo world (owner, shops, reviews, drafts waiting)
-  demodata.js           Fictional shops + synthetic reviews
-  demo.js               Simulated Google surface for demo mode
-  google.js             OAuth, Business Profile API (fetch/post), Places API
-  ai.js                 Multi-provider free AI + brand-rules fallback + perception
-  pipeline.js           The auto-responder: sync → classify → reply/draft → post
-  middleware.js         auth, origin guard, rate limit, flash
-routes/                 public pages, auth, dashboard, public search API
-views/                  EJS templates (landing, perception, auth, dashboard)
-public/                 CSS + JS
+docs/                   🐙 GitHub-native app (served by Pages)
+  index.html            Static SPA shell
+  css/app.css           Design system
+  js/                   config · util · icons · gh (GitHub API client) · ai · store · views · app
+  data/                 ← the "database": businesses.json, reviews.json, perceptions.json
+scripts/
+  github-sync.mjs       GitHub Actions worker: pull reviews → AI replies → post/draft → commit
+  seed-static-data.cjs  Regenerates docs/data from the demo dataset
+  render-test.cjs       Headless render tests for all SPA views
+.github/workflows/
+  sync.yml              Scheduled auto-responder (every 30 min) + manual dispatch
+  pages.yml             Deploys docs/ to GitHub Pages
+server.js               🖥️ Express bootstrap (self-hosted variant)
+lib/                    SQLite, Google OAuth/Business Profile/Places, AI chain, pipeline
+routes/ · views/ · public/   Self-hosted app UI
 ```
+
+## Tests
+
+```bash
+node scripts/render-test.cjs   # headless SPA render + pipeline policy tests (11 checks)
+node scripts/github-sync.mjs   # dry-run the Actions worker locally (demo simulation)
+```
+
+## Project layout

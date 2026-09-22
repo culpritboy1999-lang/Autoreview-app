@@ -1,0 +1,49 @@
+name: AutoReview sync
+
+# The repo-as-backend worker: pulls reviews, answers them with AI per policy,
+# and commits the updated data that GitHub Pages serves.
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 minutes
+  workflow_dispatch:          # "Run sync" button in the Actions tab / app dashboard
+  push:
+    paths: ["scripts/github-sync.mjs"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: autoreview-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run review sync (Google + AI or demo simulation)
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GOOGLE_AI_API_KEY: ${{ secrets.GOOGLE_AI_API_KEY }}
+        run: node scripts/github-sync.mjs
+
+      - name: Commit updated data
+        run: |
+          git config user.name "autoreview-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "sync: reviews & perceptions update [skip ci]"
+            git push
+          fi
