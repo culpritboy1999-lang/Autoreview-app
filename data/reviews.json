@@ -152,10 +152,10 @@
     "text": "Rude service today. My croissant was burnt and when I politely mentioned it the barista rolled her eyes. Won’t come back.",
     "postedAt": "2026-09-01 13:47:43",
     "fetchedAt": "2026-09-01 13:47:43",
-    "status": "pending_approval",
+    "status": "replied",
     "replyText": "Réka, we’re truly sorry about your experience at Café Aroma. This isn’t the standard we hold ourselves to, and your feedback has gone straight to our team. We’d genuinely love another chance to show you our best.\n— Team Café Aroma ☕",
-    "replySource": "ai_draft",
-    "repliedAt": null,
+    "replySource": "ai_approved",
+    "repliedAt": "2026-09-22 15:32:12",
     "topics": [
       "food quality",
       "service"
