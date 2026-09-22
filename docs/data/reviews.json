@@ -1173,5 +1173,53 @@
     "repliedAt": "2026-09-22 21:31:57",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 69,
+    "businessId": 1,
+    "googleReviewId": "demo-1790121346518-jjqdr1",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-09-22 23:55:46",
+    "fetchedAt": "2026-09-22 23:55:46",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Café Aroma. See you again soon!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-22 23:55:46",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 70,
+    "businessId": 2,
+    "googleReviewId": "demo-1790121346772-q4v0w8",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-09-22 23:55:46",
+    "fetchedAt": "2026-09-22 23:55:46",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to The Rustic Spoon — can't wait to welcome you back!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-22 23:55:46",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 71,
+    "businessId": 5,
+    "googleReviewId": "demo-1790121346911-plhygo",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-09-22 23:55:46",
+    "fetchedAt": "2026-09-22 23:55:46",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Danube Bites. See you again soon!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-22 23:55:46",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
