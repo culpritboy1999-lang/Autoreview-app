@@ -965,5 +965,21 @@
     "repliedAt": "2026-09-22 13:52:00",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 56,
+    "businessId": 2,
+    "googleReviewId": "demo-1790086080364-g310u7",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-09-22 14:08:00",
+    "fetchedAt": "2026-09-22 14:08:00",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at The Rustic Spoon. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— The Rustic Spoon Team",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
