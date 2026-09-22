@@ -7,8 +7,8 @@
     "connection": "demo",
     "googleLocationName": "locations/demo_cafe-aroma",
     "placeId": "demo_place_cafe-aroma",
-    "ratingAvg": 4.7,
-    "reviewsTotal": 10,
+    "ratingAvg": 4.3,
+    "reviewsTotal": 14,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "warm",
