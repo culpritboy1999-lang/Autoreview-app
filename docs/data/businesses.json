@@ -8,7 +8,7 @@
     "googleLocationName": "locations/demo_cafe-aroma",
     "placeId": "demo_place_cafe-aroma",
     "ratingAvg": 4.3,
-    "reviewsTotal": 15,
+    "reviewsTotal": 16,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "warm",
@@ -95,8 +95,8 @@
     "connection": "demo",
     "googleLocationName": "locations/demo_danube-bites",
     "placeId": "demo_place_danube-bites",
-    "ratingAvg": 4.3,
-    "reviewsTotal": 12,
+    "ratingAvg": 4.2,
+    "reviewsTotal": 13,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "quirky",
