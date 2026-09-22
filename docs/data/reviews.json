@@ -981,5 +981,21 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 57,
+    "businessId": 5,
+    "googleReviewId": "demo-1790086330469-x2xqgb",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-09-22 14:12:10",
+    "fetchedAt": "2026-09-22 14:12:10",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Danube Bites. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Danube Bites crew 🧡",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
