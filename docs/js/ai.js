@@ -6,7 +6,7 @@
   var KEY_STORAGE = 'ar_ai_key', PROV_STORAGE = 'ar_ai_provider';
 
   var PROVIDERS = {
-    openrouter: { label: 'Gemma 3 27B (free) · OpenRouter', model: 'google/gemma-3-27b-it:free', url: 'https://openrouter.ai/api/v1/chat/completions', browser: true },
+    openrouter: { label: 'Gemma 2 9B (free) · OpenRouter', model: 'google/gemma-2-9b-it:free', url: 'https://openrouter.ai/api/v1/chat/completions', browser: true },
     groq: { label: 'Gemma 2 9B (free) · Groq', model: 'gemma2-9b-it', url: 'https://api.groq.com/openai/v1/chat/completions', browser: true },
     google: { label: 'Gemini 2.0 Flash (free tier) · Google AI', model: 'gemini-2.0-flash', url: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent', browser: true },
   };

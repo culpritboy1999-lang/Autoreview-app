@@ -96,13 +96,12 @@ The app uses the best **free** chat models, picked automatically by which API ke
 
 | Priority | Provider | Model (free) |
 |---|---|---|
-| 1 | OpenRouter | `google/gemma-3-27b-it:free` |
+| 1 | OpenRouter | `google/gemma-2-9b-it:free` |
 | 2 | Groq | `gemma2-9b-it` |
 | 3 | Google AI Studio | `gemini-2.0-flash` |
 | — | none | built-in **brand-rules engine** (offline fallback, always works) |
 
-> Note: “Gemma 4 31B” doesn't exist — Gemma 3 27B is the newest/largest free Gemma, so that's the default.
-> Any model can be swapped via env (`OPENROUTER_MODEL`, `GROQ_MODEL`, `GOOGLE_AI_MODEL`).
+> Note: Any model can be swapped via env (`OPENROUTER_MODEL`, `GROQ_MODEL`, `GOOGLE_AI_MODEL`).
 
 ## Tech stack
 

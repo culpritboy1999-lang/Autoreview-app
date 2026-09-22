@@ -19,6 +19,7 @@
     repo: c.repo,
     repoFull: c.owner + '/' + c.repo,
     dataDir: 'data',
+    repoDataDir: 'docs/data',
     syncWorkflow: 'sync.yml',
     demoLogin: null
   }, window.AUTOREVIEW_CONFIG || {});
