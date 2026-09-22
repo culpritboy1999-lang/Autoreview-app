@@ -1039,10 +1039,10 @@
     "text": "Waited 15 minutes while one barista handled everything alone. Coffee was fine but the wait killed the morning vibe.",
     "postedAt": "2026-09-22 16:59:54",
     "fetchedAt": "2026-09-22 16:59:54",
-    "status": "pending_approval",
+    "status": "replied",
     "replyText": "Dmitri, we’re truly sorry about your experience at Café Aroma — especially the wait you experienced. This isn’t the standard we hold ourselves to, and your feedback has gone straight to our team. We’d genuinely love another chance to show you our best.\n— Team Café Aroma ☕",
-    "replySource": "ai_draft",
-    "repliedAt": null,
+    "replySource": "ai_approved",
+    "repliedAt": "2026-09-22 17:00:46",
     "topics": [
       "wait time"
     ],
