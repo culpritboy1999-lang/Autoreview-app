@@ -997,5 +997,21 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 58,
+    "businessId": 1,
+    "googleReviewId": "demo-1790091135770-w9c5a9",
+    "author": "Yuki N.",
+    "rating": 5,
+    "text": "The barista drew a tiny frog in my latte art and I thought about it all day. Warm, cozy, honest coffee.",
+    "postedAt": "2026-09-22 15:32:15",
+    "fetchedAt": "2026-09-22 15:32:15",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Yuki! Reviews like yours make our day. We’re thrilled you enjoyed your visit to Café Aroma — it means the world to the whole team. See you again soon!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-22 15:32:15",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
