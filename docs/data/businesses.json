@@ -8,7 +8,7 @@
     "googleLocationName": "locations/demo_cafe-aroma",
     "placeId": "demo_place_cafe-aroma",
     "ratingAvg": 4.3,
-    "reviewsTotal": 14,
+    "reviewsTotal": 15,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "warm",
@@ -51,8 +51,8 @@
     "connection": "demo",
     "googleLocationName": "locations/demo_golden-crust",
     "placeId": "demo_place_golden-crust",
-    "ratingAvg": 4.3,
-    "reviewsTotal": 10,
+    "ratingAvg": 4.4,
+    "reviewsTotal": 11,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "playful",
@@ -73,8 +73,8 @@
     "connection": "demo",
     "googleLocationName": "locations/demo_urban-verde",
     "placeId": "demo_place_urban-verde",
-    "ratingAvg": 4.2,
-    "reviewsTotal": 10,
+    "ratingAvg": 4.3,
+    "reviewsTotal": 11,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "friendly",

@@ -1077,5 +1077,53 @@
     "repliedAt": "2026-09-22 16:57:40",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 63,
+    "businessId": 1,
+    "googleReviewId": "demo-1790100705787-t777f5",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-09-22 18:11:45",
+    "fetchedAt": "2026-09-22 18:11:45",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Café Aroma — can't wait to welcome you back!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-22 18:11:45",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 64,
+    "businessId": 3,
+    "googleReviewId": "demo-1790100705954-rr76zd",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-09-22 18:11:45",
+    "fetchedAt": "2026-09-22 18:11:45",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Golden Crust Bakery. See you again soon!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-22 18:11:45",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 65,
+    "businessId": 4,
+    "googleReviewId": "demo-1790100705997-p5rkfs",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-09-22 18:11:45",
+    "fetchedAt": "2026-09-22 18:11:45",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at Urban Verde. See you again soon!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-22 18:11:46",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
