@@ -1063,5 +1063,21 @@
     "repliedAt": "2026-09-22 17:00:12",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 62,
+    "businessId": 1,
+    "googleReviewId": "demo-1790096427426-45vwje",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-09-22 17:00:27",
+    "fetchedAt": "2026-09-22 17:00:27",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words and the honest note, Hanna! We’re delighted you enjoyed Café Aroma — we’ll keep polishing the little things. Can’t wait to welcome you back!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-22 17:00:27",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
