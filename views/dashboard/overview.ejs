@@ -1,0 +1,70 @@
+<%- include('../partials/dash_top') %>
+
+<header class="dash-head">
+  <div>
+    <h1>Overview</h1>
+    <p class="muted">AI engine: <span class="badge badge-soft"><%= ai.label %></span></p>
+  </div>
+  <form method="post" action="/dashboard/sync">
+    <button class="btn btn-primary">↻ Check Google now</button>
+  </form>
+</header>
+
+<% if (!businesses.length) { %>
+  <div class="card empty-state">
+    <div class="emoji">🔗</div>
+    <h2>Connect your first business</h2>
+    <p class="muted">Link your Google Business Profile (or spin up a demo business) and AutoReview will start answering reviews within the minute.</p>
+    <a class="btn btn-primary" href="/dashboard/connect">Connect a business</a>
+  </div>
+<% } else { %>
+
+  <div class="stat-grid">
+    <div class="stat-card"><span class="stat-num"><%= stats.newReviews %></span><span class="stat-label">New reviews</span></div>
+    <div class="stat-card attention"><span class="stat-num"><%= stats.pending %></span><span class="stat-label">Awaiting your approval</span></div>
+    <div class="stat-card good"><span class="stat-num"><%= stats.autoReplied %></span><span class="stat-label">Answered &amp; posted</span></div>
+    <div class="stat-card"><span class="stat-num"><%= stats.avg || '—' %><span class="tiny">★</span></span><span class="stat-label">Average rating</span></div>
+  </div>
+
+  <div class="two-col">
+    <div class="card">
+      <div class="card-head"><h2>Your businesses</h2><a class="small" href="/dashboard/connect">+ Add</a></div>
+      <% businesses.forEach(function (b) {
+           const pendingCount = pendingByBusiness[b.id] || 0; %>
+        <div class="biz-row">
+          <div class="shop-avatar sm"><%= b.name.slice(0, 1) %></div>
+          <div class="biz-row-main">
+            <strong><%= b.name %></strong>
+            <p class="muted tiny"><%= b.category || 'Business' %> · <%= b.connection === 'google' ? 'Google connected ✓' : 'Demo mode' %> · <%= b.reviews_total %> reviews · <%= Number(b.rating_avg).toFixed(1) %>★</p>
+          </div>
+          <div class="biz-row-actions">
+            <a class="btn btn-ghost small-btn" href="/dashboard/reviews?business=<%= b.id %>">Inbox<%= pendingCount ? ' (' + pendingCount + ')' : '' %></a>
+            <a class="btn btn-ghost small-btn" href="/dashboard/brand?business=<%= b.id %>">Brand</a>
+            <a class="btn btn-ghost small-btn" href="/shop/<%= b.id %>" target="_blank">Public page ↗</a>
+          </div>
+        </div>
+      <% }) %>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><h2>Latest activity</h2><a class="small" href="/dashboard/reviews">Inbox →</a></div>
+      <% if (!activity.length) { %>
+        <p class="muted">No reviews yet — the sync worker checks Google every 90 seconds.</p>
+      <% } %>
+      <% activity.forEach(function (r) { %>
+        <div class="activity-row">
+          <span class="stars <%= r.rating >= 4 ? 'pos' : (r.rating === 3 ? 'mid' : 'neg') %>"><%= r.rating %>★</span>
+          <div class="activity-main">
+            <strong><%= r.author_name %></strong> <span class="muted tiny">on <%= r.business_name %></span>
+            <% if (r.text) { %><p class="muted small clamp"><%= r.text %></p><% } %>
+          </div>
+          <% if (r.status === 'auto_replied') { %><span class="badge ok">auto-replied</span>
+          <% } else if (r.status === 'pending_approval') { %><span class="badge warn">draft waiting</span>
+          <% } else if (r.status === 'replied') { %><span class="badge ok">replied</span>
+          <% } else { %><span class="badge"><%= r.status %></span><% } %>
+        </div>
+      <% }) %>
+    </div>
+  </div>
+<% } %>
+<%- include('../partials/dash_bottom') %>

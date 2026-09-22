@@ -1,0 +1,18 @@
+<%- include('../partials/head', { bodyClass: 'dash' }) %>
+<div class="dash-shell">
+  <aside class="sidebar">
+    <a class="brand" href="/"><span class="brand-mark">★</span> AutoReview</a>
+    <nav class="side-nav">
+      <a href="/dashboard" class="<%= path === '/dashboard' ? 'active' : '' %>">📊 Overview</a>
+      <a href="/dashboard/reviews" class="<%= path.startsWith('/dashboard/reviews') ? 'active' : '' %>">💬 Reviews</a>
+      <a href="/dashboard/brand" class="<%= path.startsWith('/dashboard/brand') ? 'active' : '' %>">🎨 Brand identity</a>
+      <a href="/dashboard/connect" class="<%= path.startsWith('/dashboard/connect') ? 'active' : '' %>">🔗 Connect business</a>
+    </nav>
+    <div class="side-foot">
+      <p class="small"><strong><%= user.name %></strong><br><span class="muted tiny"><%= user.email %></span></p>
+      <form method="post" action="/auth/logout"><button class="btn btn-ghost btn-block small-btn">Log out</button></form>
+      <a class="tiny muted" href="/">← Public site</a>
+    </div>
+  </aside>
+  <main class="dash-main">
+    <% if (flash) { %><div class="alert alert-<%= flash.type %>"><%= flash.message %></div><% } %>

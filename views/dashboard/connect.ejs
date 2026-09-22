@@ -1,0 +1,74 @@
+<%- include('../partials/dash_top') %>
+
+<header class="dash-head">
+  <div>
+    <h1>Connect a business</h1>
+    <p class="muted">Pull reviews from Google and reply — right from AutoReview.</p>
+  </div>
+</header>
+
+<% if (error) { %><div class="alert alert-error"><%= error %></div><% } %>
+
+<div class="two-col">
+  <div class="card connect-card">
+    <div class="connect-logo">G</div>
+    <h2>Google Business Profile</h2>
+    <p class="muted">The real deal: reviews sync automatically and replies are posted straight to Google.</p>
+    <ul class="check-list">
+      <li>Fetches every new review from your locations</li>
+      <li>Auto-posts replies to 4–5★ reviews</li>
+      <li>Drafts ≤3★ replies for your approval</li>
+    </ul>
+    <a class="btn <%= googleReady ? 'btn-primary' : 'btn-outline' %> btn-block" href="/dashboard/connect/google">
+      <%= googleReady ? 'Connect with Google' : '🔒 Needs server setup' %>
+    </a>
+    <% if (!googleReady) { %>
+      <details class="setup-details">
+        <summary class="tiny muted">How to enable live Google access</summary>
+        <ol class="tiny muted">
+          <li>Create an OAuth client (Web application) in Google Cloud Console.</li>
+          <li>Enable the <em>Business Profile API</em> and <em>My Business Account Management API</em>.</li>
+          <li>Put <code>GOOGLE_CLIENT_ID</code> and <code>GOOGLE_CLIENT_SECRET</code> in <code>.env</code>.</li>
+          <li>Add <code>&lt;your-host&gt;/dashboard/connect/google/callback</code> and <code>&lt;your-host&gt;/auth/google/callback</code> as Authorized redirect URIs.</li>
+          <li>Restart — the button above goes live. (Places API key optional, powers guest search.)</li>
+        </ol>
+      </details>
+    <% } %>
+  </div>
+
+  <div class="card connect-card">
+    <div class="connect-logo demo">★</div>
+    <h2>Demo business</h2>
+    <p class="muted">No Google credentials handy? Create a simulated business with reviews flowing in — the whole AI pipeline works identically.</p>
+    <ul class="check-list">
+      <li>Simulated Google reviews arrive every few minutes</li>
+      <li>Same auto-reply &amp; approval flows, zero setup</li>
+      <li>Perfect for testing your brand identity rules</li>
+    </ul>
+    <form method="post" action="/dashboard/connect/demo" class="demo-form">
+      <input type="text" name="name" required placeholder="Business name" maxlength="80">
+      <input type="text" name="category" placeholder="Category (e.g. Bakery)" maxlength="60">
+      <input type="text" name="address" placeholder="Address (optional)" maxlength="120">
+      <button class="btn btn-primary btn-block" type="submit">Add demo business</button>
+    </form>
+  </div>
+</div>
+
+<% if (businesses.length) { %>
+  <div class="card" style="margin-top:24px">
+    <div class="card-head"><h2>Connected businesses</h2></div>
+    <% businesses.forEach(function (b) { %>
+      <div class="biz-row">
+        <div class="shop-avatar sm"><%= b.name.slice(0, 1) %></div>
+        <div class="biz-row-main">
+          <strong><%= b.name %></strong>
+          <p class="muted tiny"><%= b.connection === 'google' ? 'Google connected ✓' : 'Demo mode' %><%= b.google_location_name ? ' · ' + b.google_location_name : '' %></p>
+        </div>
+        <form method="post" action="/business/<%= b.id %>/disconnect">
+          <button class="btn btn-ghost small-btn">Disconnect</button>
+        </form>
+      </div>
+    <% }) %>
+  </div>
+<% } %>
+<%- include('../partials/dash_bottom') %>

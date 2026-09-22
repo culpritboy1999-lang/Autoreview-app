@@ -1,0 +1,36 @@
+<%- include('../partials/dash_top') %>
+
+<header class="dash-head">
+  <div>
+    <h1>Choose your location</h1>
+    <p class="muted">Pick the Google Business Profile location AutoReview should manage.</p>
+  </div>
+</header>
+
+<% if (!locations.length) { %>
+  <div class="card empty-state">
+    <div class="emoji">🏢</div>
+    <h2>No locations found</h2>
+    <p class="muted">Your Google account has no Business Profile locations. Try another account or add a demo business.</p>
+    <a class="btn btn-primary" href="/dashboard/connect">Back</a>
+  </div>
+<% } else { %>
+  <div class="card">
+    <% locations.forEach(function (l) { %>
+      <form method="post" action="/dashboard/connect/google/save" class="loc-row">
+        <input type="hidden" name="location" value="<%= l.name %>">
+        <input type="hidden" name="account" value="<%= l.account || '' %>">
+        <div class="shop-avatar sm"><%= (l.title || '?').slice(0, 1) %></div>
+        <div class="biz-row-main">
+          <strong><%= l.title %></strong>
+          <p class="muted tiny"><%= l.category || 'Business' %><%= l.address ? ' · ' + l.address : '' %></p>
+        </div>
+        <button class="btn btn-primary small-btn" type="submit">Connect</button>
+      </form>
+    <% }) %>
+  </div>
+  <% if (!hasRefresh) { %>
+    <p class="muted tiny">Heads-up: Google didn't return a refresh token (reconnect needed every hour). Reconnect with “consent” to fix.</p>
+  <% } %>
+<% } %>
+<%- include('../partials/dash_bottom') %>

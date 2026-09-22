@@ -1,0 +1,33 @@
+<%- include('partials/head', { bodyClass: 'auth-page' }) %>
+<main class="auth-wrap">
+  <div class="auth-card">
+    <a class="brand auth-brand" href="/"><span class="brand-mark">★</span> AutoReview</a>
+    <h1>Create your account</h1>
+    <p class="muted">Connect your shop and let AI handle the reviews.</p>
+
+    <% if (error) { %><div class="alert alert-error"><%= error %></div><% } %>
+
+    <form method="post" action="/auth/signup" class="auth-form">
+      <label>Your name
+        <input type="text" name="name" required placeholder="Anna Nagy" autofocus>
+      </label>
+      <label>Email
+        <input type="email" name="email" required placeholder="you@yourshop.com">
+      </label>
+      <label>Password <span class="muted tiny">(min. 8 characters)</span>
+        <input type="password" name="password" required minlength="8" placeholder="••••••••">
+      </label>
+      <button class="btn btn-primary btn-block" type="submit">Create account</button>
+    </form>
+
+    <% if (googleReady) { %>
+      <div class="or-divider"><span>or</span></div>
+      <a class="btn btn-outline btn-block" href="/auth/google">🔍 Sign up with Google</a>
+    <% } %>
+
+    <p class="muted small center">Already have an account? <a href="/login">Log in</a></p>
+  </div>
+</main>
+<script src="/js/main.js" defer></script>
+</body>
+</html>
