@@ -13,7 +13,8 @@
  *   5. Writes updated JSON files; the workflow commits them to the repo,
  *      where GitHub Pages immediately serves the new state.
  *
- * Zero npm dependencies (Node 20+, native fetch). Env:
+ * Zero npm dependencies (Node 20+, native fetch). Runs on GitHub Actions
+ * (schedule / workflow_dispatch / push to this file). Env:
  *   GITHUB_* set by Actions; optional secrets:
  *   GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REFRESH_TOKEN,
  *   OPENROUTER_API_KEY | GROQ_API_KEY | GOOGLE_AI_API_KEY
