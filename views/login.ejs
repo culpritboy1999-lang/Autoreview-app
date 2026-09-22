@@ -1,0 +1,36 @@
+<%- include('partials/head', { bodyClass: 'auth-page' }) %>
+<main class="auth-wrap">
+  <div class="auth-card">
+    <a class="brand auth-brand" href="/"><span class="brand-mark">★</span> AutoReview</a>
+    <h1>Welcome back</h1>
+    <p class="muted">Log in to your shop owner account.</p>
+
+    <% if (error) { %><div class="alert alert-error"><%= error %></div><% } %>
+    <% if (flash) { %><div class="alert alert-<%= flash.type %>"><%= flash.message %></div><% } %>
+
+    <form method="post" action="/auth/login" class="auth-form">
+      <input type="hidden" name="next" value="<%= next %>">
+      <label>Email
+        <input type="email" name="email" required placeholder="you@yourshop.com" autofocus>
+      </label>
+      <label>Password
+        <input type="password" name="password" required placeholder="••••••••">
+      </label>
+      <button class="btn btn-primary btn-block" type="submit">Log in</button>
+    </form>
+
+    <% if (googleReady) { %>
+      <div class="or-divider"><span>or</span></div>
+      <a class="btn btn-outline btn-block" href="/auth/google">🔍 Continue with Google</a>
+    <% } %>
+
+    <div class="demo-hint">
+      <strong>Demo account</strong>
+      <code>demo@autoreview.app</code> / <code>demo1234</code>
+    </div>
+    <p class="muted small center">New here? <a href="/signup">Create an account</a></p>
+  </div>
+</main>
+<script src="/js/main.js" defer></script>
+</body>
+</html>

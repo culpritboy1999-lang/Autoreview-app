@@ -1,0 +1,125 @@
+<%- include('partials/head', { bodyClass: 'landing' }) %>
+<%- include('partials/nav') %>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <div class="pill">✦ AI review responder for local shops</div>
+        <h1>Every Google review answered.<br><span class="grad">In your voice.</span> On autopilot.</h1>
+        <p class="lead">
+          AutoReview connects to your Google Business Profile, replies to happy guests
+          instantly with AI trained on your <strong>brand identity</strong>, and drafts
+          careful responses to unhappy ones — for your approval. Plus: anyone can look up
+          what guests <em>really</em> think about any shop.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary btn-lg" href="/signup">Start free — connect your shop</a>
+          <a class="btn btn-outline btn-lg" href="/login">Try the live demo</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong><%= totals.reviews %></strong><span>reviews processed</span></div>
+          <div><strong><%= totals.answered %></strong><span>answers posted</span></div>
+          <div><strong><%= totals.avg ? Number(totals.avg).toFixed(1) : '—' %>★</strong><span>average rating</span></div>
+        </div>
+      </div>
+
+      <!-- Search demo -->
+      <div class="hero-panel" id="explore">
+        <h3>🔍 How do guests perceive a shop?</h3>
+        <p class="muted small">Search the shops on this AutoReview instance:</p>
+        <div class="search-box" id="search-box">
+          <input type="search" id="search-input" placeholder="Try “bakery”, “vegan” or “Aroma”…" autocomplete="off">
+          <button class="btn btn-primary" id="search-go">Search</button>
+          <div class="search-results" id="search-results" hidden></div>
+        </div>
+        <div class="quick-shops">
+          <% shops.slice(0, 5).forEach(function (s) { %>
+            <a class="chip" href="/shop/<%= s.id %>"><%= s.name %></a>
+          <% }) %>
+        </div>
+        <p class="muted tiny">Public perception pages are built from each shop's Google reviews: what it's known for, famous dishes, and things worth noticing.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUE PROPS -->
+  <section class="section container">
+    <div class="grid-3">
+      <div class="card">
+        <div class="emoji">⚡</div>
+        <h3>4★ &amp; 5★ answered instantly</h3>
+        <p class="muted">Positive reviews get a warm, specific reply posted to Google within seconds of arriving — no clicking required.</p>
+      </div>
+      <div class="card">
+        <div class="emoji">🛡️</div>
+        <h3>Negative reviews handled with care</h3>
+        <p class="muted">1–3★ reviews are never auto-posted. The AI drafts a thoughtful response; you review, edit if you like, and approve.</p>
+      </div>
+      <div class="card">
+        <div class="emoji">🎨</div>
+        <h3>Your brand identity rules the AI</h3>
+        <p class="muted">Tone, house rules, signature, emoji policy, language — the AI follows <em>your</em> playbook on every single reply.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section section-alt" id="how">
+    <div class="container">
+      <h2 class="section-title">How AutoReview works</h2>
+      <div class="steps">
+        <div class="step"><div class="step-num">1</div><h4>Connect Google</h4><p class="muted">Sign in and link your Google Business Profile. We sync reviews from your locations automatically.</p></div>
+        <div class="step"><div class="step-num">2</div><h4>Teach it your brand</h4><p class="muted">Add your tone of voice, do's &amp; don'ts and signature. The AI writes like you, not like a robot.</p></div>
+        <div class="step"><div class="step-num">3</div><h4>Relax</h4><p class="muted">Great reviews get answered on autopilot. Tricky ones land in your inbox with a ready draft.</p></div>
+        <div class="step"><div class="step-num">4</div><h4>Show up in search</h4><p class="muted">Guests discover your perception page — what you're famous for, straight from real reviews.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHOP DIRECTORY -->
+  <section class="section container" id="directory">
+    <h2 class="section-title">Shops on AutoReview</h2>
+    <p class="muted" style="margin-bottom:18px">Open a perception page to see what guests collectively say.</p>
+    <div class="grid-3">
+      <% shops.forEach(function (s) { %>
+        <a class="card shop-card" href="/shop/<%= s.id %>">
+          <div class="shop-card-head">
+            <h3><%= s.name %></h3>
+            <span class="badge"><%= s.category %></span>
+          </div>
+          <p class="stars"><%= '★'.repeat(Math.round(s.rating_avg)) %><%= '☆'.repeat(5 - Math.round(s.rating_avg)) %> <span class="muted"><%= s.rating_avg.toFixed(1) %> · <%= s.reviews_total %> reviews</span></p>
+          <p class="muted small"><%= s.address %></p>
+          <span class="link-arrow">See perception →</span>
+        </a>
+      <% }) %>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section section-alt" id="pricing">
+    <div class="container">
+      <h2 class="section-title">Simple pricing</h2>
+      <div class="grid-3">
+        <div class="card price-card">
+          <h3>Starter</h3><div class="price">Free</div>
+          <ul><li>1 business</li><li>AI auto-replies</li><li>Approval inbox</li><li>Public perception page</li></ul>
+          <a class="btn btn-outline btn-block" href="/signup">Get started</a>
+        </div>
+        <div class="card price-card featured">
+          <div class="badge-accent">Most popular</div>
+          <h3>Growth</h3><div class="price">$19<span>/mo</span></div>
+          <ul><li>3 businesses</li><li>Brand identity per business</li><li>Daily sync + instant reply posting</li><li>Draft regeneration &amp; editing</li></ul>
+          <a class="btn btn-primary btn-block" href="/signup">Start free trial</a>
+        </div>
+        <div class="card price-card">
+          <h3>Chain</h3><div class="price">$49<span>/mo</span></div>
+          <ul><li>Unlimited locations</li><li>Multi-owner teams</li><li>Custom AI models</li><li>Priority support</li></ul>
+          <a class="btn btn-outline btn-block" href="/signup">Talk to us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<%- include('partials/foot') %>

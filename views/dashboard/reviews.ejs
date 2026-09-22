@@ -1,0 +1,100 @@
+<%- include('../partials/dash_top') %>
+
+<header class="dash-head">
+  <div>
+    <h1>Reviews inbox</h1>
+    <p class="muted">
+      <% if (businesses.length) { %>
+        4–5★ replies are <strong>posted automatically</strong> · ≤3★ wait for <strong>your approval</strong>
+      <% } %>
+    </p>
+  </div>
+  <form method="post" action="/dashboard/sync">
+    <button class="btn btn-primary">↻ Check Google now</button>
+  </form>
+</header>
+
+<% if (!businesses.length) { %>
+  <div class="card empty-state">
+    <div class="emoji">🔗</div>
+    <h2>No business connected yet</h2>
+    <p class="muted">Connect a business to start receiving reviews.</p>
+    <a class="btn btn-primary" href="/dashboard/connect">Connect a business</a>
+  </div>
+<% } else { %>
+
+  <!-- Business switcher + filters -->
+  <div class="inbox-controls">
+    <div class="biz-switch">
+      <% businesses.forEach(function (b) { %>
+        <a class="switch-pill <%= b.id === bid ? 'active' : '' %>" href="/dashboard/reviews?business=<%= b.id %>&filter=<%= filter %>"><%= b.name %></a>
+      <% }) %>
+    </div>
+    <div class="filter-pills">
+      <a class="switch-pill <%= filter === 'all' ? 'active' : '' %>" href="/dashboard/reviews?business=<%= bid %>&filter=all">All <span class="muted"><%= counts.total %></span></a>
+      <a class="switch-pill <%= filter === 'pending' ? 'active' : '' %>" href="/dashboard/reviews?business=<%= bid %>&filter=pending">Needs approval <span class="badge warn"><%= counts.pending %></span></a>
+      <a class="switch-pill <%= filter === 'auto' ? 'active' : '' %>" href="/dashboard/reviews?business=<%= bid %>&filter=auto">Auto-replied <span class="badge ok"><%= counts.auto %></span></a>
+    </div>
+  </div>
+
+  <!-- PENDING APPROVAL -->
+  <% if (filter !== 'auto') { %>
+    <h2 class="inbox-section">✍️ Drafts waiting for your approval</h2>
+    <% if (!pending.length) { %>
+      <div class="card empty-state slim">
+        <p class="muted">🎉 Nothing waiting — negative review drafts land here for a final check before posting.</p>
+      </div>
+    <% } %>
+    <% pending.forEach(function (r) { %>
+      <div class="card draft-card" data-review-id="<%= r.id %>">
+        <div class="draft-review">
+          <div class="review-meta">
+            <span class="stars neg"><%= '★'.repeat(r.rating) %><span class="stars-off"><%= '★'.repeat(5 - r.rating) %></span></span>
+            <strong><%= r.author_name %></strong>
+            <% if (r.topics) { %><span class="badge topic"><%= r.topics %></span><% } %>
+            <span class="muted tiny"><%= String(r.posted_at || r.fetched_at).slice(0, 10) %></span>
+          </div>
+          <% if (r.text) { %><blockquote>“<%= r.text %>”</blockquote><% } else { %><p class="muted small">(stars only, no text)</p><% } %>
+        </div>
+        <div class="draft-body">
+          <div class="draft-label">AI draft <%= r.reply_source === 'ai_draft' ? '' : '' %><span class="muted tiny">— edit freely, then approve to post to Google</span></div>
+          <textarea class="draft-text" rows="4"><%= r.reply_text %></textarea>
+          <div class="draft-actions">
+            <button class="btn btn-primary act-approve">✓ Approve &amp; post</button>
+            <button class="btn btn-outline act-regen">↻ Regenerate draft</button>
+            <button class="btn btn-ghost act-skip">Skip — no reply</button>
+          </div>
+          <div class="draft-status tiny muted"></div>
+        </div>
+      </div>
+    <% }) %>
+  <% } %>
+
+  <!-- PROCESSED -->
+  <% if (filter !== 'pending') { %>
+    <h2 class="inbox-section">📮 Handled reviews</h2>
+    <% if (!others.length) { %><p class="muted">No handled reviews yet.</p><% } %>
+    <% others.forEach(function (r) { %>
+      <div class="card reply-card">
+        <div class="review-meta">
+          <span class="stars <%= r.rating >= 4 ? 'pos' : (r.rating === 3 ? 'mid' : 'neg') %>"><%= '★'.repeat(r.rating) %><span class="stars-off"><%= '★'.repeat(5 - r.rating) %></span></span>
+          <strong><%= r.author_name %></strong>
+          <span class="muted tiny"><%= String(r.posted_at || r.fetched_at).slice(0, 10) %></span>
+          <% if (r.status === 'auto_replied') { %><span class="badge ok">⚡ auto-posted</span>
+          <% } else if (r.status === 'replied') { %><span class="badge ok">✓ replied</span>
+          <% } else if (r.status === 'skipped') { %><span class="badge">skipped</span>
+          <% } else if (r.status === 'reply_failed') { %><span class="badge err">post failed — retry pending</span>
+          <% } else { %><span class="badge"><%= r.status %></span><% } %>
+        </div>
+        <% if (r.text) { %><blockquote>“<%= r.text %>”</blockquote><% } %>
+        <% if (r.reply_text) { %>
+          <div class="our-reply">
+            <div class="our-reply-head tiny muted"><strong>Your reply</strong> · <%= r.reply_source === 'ai_auto' ? 'AI auto-reply' : (r.reply_source === 'ai_approved' ? 'AI draft, approved by you' : 'written by you') %><%= r.replied_at ? ' · ' + String(r.replied_at).slice(0, 16) : '' %></div>
+            <p class="clamp"><%= r.reply_text %></p>
+          </div>
+        <% } %>
+      </div>
+    <% }) %>
+  <% } %>
+<% } %>
+<%- include('../partials/dash_bottom') %>

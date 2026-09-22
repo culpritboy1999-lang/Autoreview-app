@@ -1,0 +1,87 @@
+<%- include('../partials/dash_top') %>
+
+<header class="dash-head">
+  <div>
+    <h1>Brand identity</h1>
+    <p class="muted">These rules steer every AI reply — the more specific, the more <em>you</em> it sounds.</p>
+  </div>
+</header>
+
+<% if (!businesses.length) { %>
+  <div class="card empty-state">
+    <div class="emoji">🎨</div>
+    <h2>No business yet</h2>
+    <p class="muted">Connect a business first, then teach the AI its voice.</p>
+    <a class="btn btn-primary" href="/dashboard/connect">Connect a business</a>
+  </div>
+<% } else { %>
+
+  <div class="biz-switch" style="margin-bottom:16px">
+    <% businesses.forEach(function (b) { %>
+      <a class="switch-pill <%= selected && b.id === selected.id ? 'active' : '' %>" href="/dashboard/brand?business=<%= b.id %>"><%= b.name %></a>
+    <% }) %>
+  </div>
+
+  <% if (selected) { %>
+  <form method="post" action="/dashboard/brand" class="brand-form">
+    <input type="hidden" name="business_id" value="<%= selected.id %>">
+
+    <div class="card brand-card">
+      <h2>Voice</h2>
+      <div class="form-grid">
+        <label>Tone
+          <select name="tone">
+            <% ['friendly','warm','professional','playful','quirky','luxurious'].forEach(function (t) { %>
+              <option value="<%= t %>" <%= selected.brand.tone === t ? 'selected' : '' %>><%= t.charAt(0).toUpperCase() + t.slice(1) %></option>
+            <% }) %>
+          </select>
+        </label>
+        <label>Reply language
+          <input type="text" name="language" value="<%= selected.brand.language || 'English' %>" placeholder="English / Magyar / Deutsch…">
+        </label>
+        <label>Emoji policy
+          <select name="emoji_policy">
+            <% ['none','sparingly','freely'].forEach(function (p) { %>
+              <option value="<%= p %>" <%= selected.brand.emoji_policy === p ? 'selected' : '' %>><%= p %></option>
+            <% }) %>
+          </select>
+        </label>
+        <label>Reply length
+          <select name="reply_length">
+            <% ['short','medium','long'].forEach(function (l) { %>
+              <option value="<%= l %>" <%= selected.brand.reply_length === l ? 'selected' : '' %>><%= l %></option>
+            <% }) %>
+          </select>
+        </label>
+      </div>
+
+      <label class="stack">About the business <span class="muted tiny">(food, specialities, story — the AI weaves this in)</span>
+        <textarea name="about" rows="3" placeholder="Family-run specialty coffee house since 2016. We roast our own beans and bake fresh every morning."><%= selected.brand.about || '' %></textarea>
+      </label>
+
+      <label class="stack">Signature <span class="muted tiny">(added at the end of every reply)</span>
+        <input type="text" name="signature" value="<%= selected.brand.signature || '' %>" placeholder="— Team Café Aroma ☕">
+      </label>
+    </div>
+
+    <div class="card brand-card">
+      <h2>House rules</h2>
+      <div class="form-grid">
+        <label class="stack">Always
+          <textarea name="rules_do" rows="3" placeholder="Thank guests by name. Mention our house pastries when relevant. Invite them back…"><%= selected.brand.rules_do || '' %></textarea>
+        </label>
+        <label class="stack">Never
+          <textarea name="rules_dont" rows="3" placeholder="Never offer refunds or compensation. No slang. Don't mention prices…"><%= selected.brand.rules_dont || '' %></textarea>
+        </label>
+      </div>
+      <p class="muted tiny">Safety rails are always on: the AI never promises refunds, payments, discounts or shares contact details.</p>
+    </div>
+
+    <div class="brand-save">
+      <button class="btn btn-primary btn-lg" type="submit">Save brand identity</button>
+      <span class="muted tiny">Applies to all future replies<%= selected.brand.updated_at ? ' · last saved ' + String(selected.brand.updated_at).slice(0, 16) : '' %></span>
+    </div>
+  </form>
+  <% } %>
+<% } %>
+<%- include('../partials/dash_bottom') %>

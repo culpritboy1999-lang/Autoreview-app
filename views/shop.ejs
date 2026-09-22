@@ -1,0 +1,117 @@
+<%- include('partials/head', { bodyClass: 'shop-page' }) %>
+<%- include('partials/nav') %>
+
+<main class="container shop-main">
+  <!-- Header -->
+  <div class="shop-header card">
+    <div class="shop-header-main">
+      <div class="shop-avatar"><%= shop.name.slice(0, 1) %></div>
+      <div>
+        <h1><%= shop.name %></h1>
+        <p class="muted"><%= shop.category %> · <%= shop.address %></p>
+        <p class="stars big"><%= '★'.repeat(Math.round(shop.rating_avg)) %><%= '☆'.repeat(5 - Math.round(shop.rating_avg)) %>
+          <strong><%= shop.rating_avg.toFixed(1) %></strong> <span class="muted">· <%= shop.reviews_total %> Google reviews</span></p>
+      </div>
+    </div>
+    <form method="post" action="/shop/<%= shop.id %>/refresh">
+      <button class="btn btn-outline" title="Re-run the AI analysis on the latest reviews">↻ Re-analyse</button>
+    </form>
+  </div>
+
+  <div class="shop-grid">
+    <!-- LEFT: AI perception -->
+    <div class="shop-col-main">
+      <div class="card perception">
+        <div class="card-head">
+          <h2>✨ What guests collectively say</h2>
+          <span class="badge badge-soft" title="AI engine that produced this summary"><%= engine.startsWith('brand') ? 'brand-rules engine' : engine %></span>
+        </div>
+        <% if (perception) { %>
+          <p class="about-text"><%= perception.about %></p>
+
+          <% if (perception.famous_for && perception.famous_for.length) { %>
+            <h3>Most famous for</h3>
+            <div class="fame-grid">
+              <% perception.famous_for.forEach(function (f) { %>
+                <div class="fame-item">
+                  <span class="fame-name"><%= f.name %></span>
+                  <% if (f.why) { %><span class="muted small"><%= f.why %></span><% } %>
+                </div>
+              <% }) %>
+            </div>
+          <% } %>
+
+          <% if (perception.atmosphere) { %>
+            <h3>Atmosphere</h3>
+            <p class="muted"><%= perception.atmosphere %></p>
+          <% } %>
+
+          <% if (perception.things_to_notice && perception.things_to_notice.length) { %>
+            <h3>⚠️ Important things to notice</h3>
+            <ul class="notice-list">
+              <% perception.things_to_notice.forEach(function (n) { %><li><%= n %></li><% }) %>
+            </ul>
+          <% } %>
+
+          <% if (perception.best_for && perception.best_for.length) { %>
+            <h3>Best for</h3>
+            <div class="chips">
+              <% perception.best_for.forEach(function (b) { %><span class="chip"><%= b %></span><% }) %>
+            </div>
+          <% } %>
+
+          <% if (perception.sentiment_summary) { %>
+            <p class="sentiment-line muted"><strong>Sentiment:</strong> <%= perception.sentiment_summary %></p>
+          <% } %>
+          <p class="tiny muted">Generated <%= generatedAt %> UTC from real guest reviews. Always double-check with the shop.</p>
+        <% } else { %>
+          <p class="muted">Not enough reviews yet to build a perception. Check back soon!</p>
+        <% } %>
+      </div>
+
+      <!-- Reviews -->
+      <div class="card">
+        <div class="card-head"><h2>Recent reviews</h2><span class="muted small"><%= total %> shown</span></div>
+        <div class="review-list">
+          <% reviews.forEach(function (r) { %>
+            <div class="review-item">
+              <div class="review-head">
+                <strong><%= r.author_name %></strong>
+                <span class="stars <%= r.rating >= 4 ? 'pos' : (r.rating === 3 ? 'mid' : 'neg') %>"><%= '★'.repeat(r.rating) %><span class="stars-off"><%= '★'.repeat(5 - r.rating) %></span></span>
+                <% if (r.posted_at) { %><span class="muted tiny"><%= String(r.posted_at).slice(0, 10) %></span><% } %>
+              </div>
+              <% if (r.text) { %><p><%= r.text %></p><% } %>
+            </div>
+          <% }) %>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: stats -->
+    <aside class="shop-col-side">
+      <div class="card">
+        <h3>Rating breakdown</h3>
+        <% [5,4,3,2,1].forEach(function (star) { %>
+          <% const pct = Math.round((dist[star] || 0) / total * 100); %>
+          <div class="dist-row">
+            <span class="dist-label"><%= star %>★</span>
+            <div class="dist-bar"><div class="dist-fill <%= star >= 4 ? '' : (star === 3 ? 'mid' : 'neg') %>" style="width:<%= pct %>%"></div></div>
+            <span class="dist-count muted small"><%= dist[star] || 0 %></span>
+          </div>
+        <% }) %>
+      </div>
+      <% if (shop.connection === 'demo') { %>
+        <div class="card demo-note">
+          <h4>Demo shop</h4>
+          <p class="muted small">This is a fictional demo business with synthetic reviews, so you can explore AutoReview safely. Connect your own Google Business Profile to see your real perception here.</p>
+        </div>
+      <% } %>
+      <div class="card cta-card">
+        <h4>Own a shop?</h4>
+        <p class="muted small">Let AI answer your reviews in your voice — while you keep control of the tricky ones.</p>
+        <a class="btn btn-primary btn-block" href="/signup">Start free</a>
+      </div>
+    </aside>
+  </div>
+</main>
+<%- include('partials/foot') %>
