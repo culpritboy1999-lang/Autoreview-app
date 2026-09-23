@@ -1317,5 +1317,37 @@
     "repliedAt": "2026-09-23 18:06:13",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 78,
+    "businessId": 1,
+    "googleReviewId": "demo-1790199475376-iedjf9",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-09-23 21:37:55",
+    "fetchedAt": "2026-09-23 21:37:55",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at Café Aroma — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Team Café Aroma ☕",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 79,
+    "businessId": 2,
+    "googleReviewId": "demo-1790199475579-eev10c",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-09-23 21:37:55",
+    "fetchedAt": "2026-09-23 21:37:55",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at The Rustic Spoon — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— The Rustic Spoon Team",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
