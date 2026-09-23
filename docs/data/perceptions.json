@@ -1,36 +1,38 @@
 {
   "1": {
-    "about": "Café Aroma collects strongly positive feedback overall — about 83% of reviewers rate it 4★ or 5★, with words like “best”, “flat”, “white” recurring across happy reviews.",
+    "about": "Café Aroma collects strongly positive feedback — about 79% of reviewers rate it 4★ or 5★, with “warm”, “absolutely”, “staff” recurring across happy reviews.",
     "famousFor": [
       {
+        "name": "Warm",
+        "why": "praised in 4+ reviews"
+      },
+      {
+        "name": "Absolutely",
+        "why": "praised in 3+ reviews"
+      },
+      {
+        "name": "Staff",
+        "why": "praised in 3+ reviews"
+      },
+      {
+        "name": "Cozy",
+        "why": "praised in 3+ reviews"
+      },
+      {
+        "name": "Coffee",
+        "why": "praised in 3+ reviews"
+      },
+      {
         "name": "Best",
-        "why": "praised in 2+ reviews"
-      },
-      {
-        "name": "Flat",
-        "why": "praised in 2+ reviews"
-      },
-      {
-        "name": "White",
-        "why": "praised in 2+ reviews"
-      },
-      {
-        "name": "Baristas",
-        "why": "praised in 2+ reviews"
-      },
-      {
-        "name": "Morning",
-        "why": "praised in 2+ reviews"
-      },
-      {
-        "name": "Cinnamon",
         "why": "praised in 2+ reviews"
       }
     ],
     "thingsToNotice": [
-      "can mean waits at busy times",
-      "occasional reports on food consistency",
-      "service can be uneven per some guests"
+      "service can be uneven per some guests",
+      "bring cash — card payments can fail",
+      "popular items sell out early",
+      "prices on the higher side for some",
+      "can mean waits at busy times"
     ],
     "atmosphere": "Guests mostly describe the vibe warmly and keep coming back.",
     "bestFor": [
@@ -38,16 +40,20 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "83% positive · 0% mixed · 17% negative across 12 reviews.",
-    "engine": "brand-rules-engine",
-    "generatedAt": "2026-09-22 13:47:43"
+    "sentimentSummary": "79% positive · 5% mixed · 16% negative across 19 reviews.",
+    "engine": "google/gemma-2-9b-it:free",
+    "generatedAt": "2026-09-23 02:49:05"
   },
   "2": {
-    "about": "The Rustic Spoon collects strongly positive feedback overall — about 73% of reviewers rate it 4★ or 5★, with words like “menu”, “goulash”, “courtyard” recurring across happy reviews.",
+    "about": "The Rustic Spoon collects strongly positive feedback — about 71% of reviewers rate it 4★ or 5★, with “menu”, “every”, “goulash” recurring across happy reviews.",
     "famousFor": [
       {
         "name": "Menu",
         "why": "praised in 4+ reviews"
+      },
+      {
+        "name": "Every",
+        "why": "praised in 3+ reviews"
       },
       {
         "name": "Goulash",
@@ -58,23 +64,18 @@
         "why": "praised in 2+ reviews"
       },
       {
+        "name": "Wonderful",
+        "why": "praised in 2+ reviews"
+      },
+      {
         "name": "Duck",
-        "why": "praised in 2+ reviews"
-      },
-      {
-        "name": "Tasting",
-        "why": "praised in 2+ reviews"
-      },
-      {
-        "name": "Sour-cherry",
         "why": "praised in 2+ reviews"
       }
     ],
     "thingsToNotice": [
-      "can mean waits at busy times",
-      "some find prices on the higher side",
-      "occasional reports on food consistency",
-      "service can be uneven per some guests"
+      "service can be uneven per some guests",
+      "prices on the higher side for some",
+      "can mean waits at busy times"
     ],
     "atmosphere": "Guests mostly describe the vibe warmly and keep coming back.",
     "bestFor": [
@@ -82,15 +83,23 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "73% positive · 9% mixed · 18% negative across 11 reviews.",
-    "engine": "brand-rules-engine",
-    "generatedAt": "2026-09-22 13:47:43"
+    "sentimentSummary": "71% positive · 7% mixed · 21% negative across 14 reviews.",
+    "engine": "google/gemma-2-9b-it:free",
+    "generatedAt": "2026-09-23 02:49:05"
   },
   "3": {
-    "about": "Golden Crust Bakery collects strongly positive feedback overall — about 80% of reviewers rate it 4★ or 5★, with words like “croissants”, “worth”, “sourdough” recurring across happy reviews.",
+    "about": "Golden Crust Bakery collects strongly positive feedback — about 69% of reviewers rate it 4★ or 5★, with “staff”, “croissants”, “like” recurring across happy reviews.",
     "famousFor": [
       {
+        "name": "Staff",
+        "why": "praised in 3+ reviews"
+      },
+      {
         "name": "Croissants",
+        "why": "praised in 2+ reviews"
+      },
+      {
+        "name": "Like",
         "why": "praised in 2+ reviews"
       },
       {
@@ -98,25 +107,19 @@
         "why": "praised in 2+ reviews"
       },
       {
-        "name": "Sourdough",
+        "name": "Every",
         "why": "praised in 2+ reviews"
       },
       {
-        "name": "-hour",
-        "why": "praised in 1+ reviews"
-      },
-      {
-        "name": "Genuinely",
-        "why": "praised in 1+ reviews"
-      },
-      {
-        "name": "Shatter",
-        "why": "praised in 1+ reviews"
+        "name": "Sourdough",
+        "why": "praised in 2+ reviews"
       }
     ],
     "thingsToNotice": [
       "can mean waits at busy times",
-      "popular items can sell out early"
+      "service can be uneven per some guests",
+      "popular items sell out early",
+      "prices on the higher side for some"
     ],
     "atmosphere": "Guests mostly describe the vibe warmly and keep coming back.",
     "bestFor": [
@@ -124,15 +127,23 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "80% positive · 10% mixed · 10% negative across 10 reviews.",
-    "engine": "brand-rules-engine",
-    "generatedAt": "2026-09-22 13:47:43"
+    "sentimentSummary": "69% positive · 23% mixed · 8% negative across 13 reviews.",
+    "engine": "google/gemma-2-9b-it:free",
+    "generatedAt": "2026-09-23 02:49:05"
   },
   "4": {
-    "about": "Urban Verde collects strongly positive feedback overall — about 78% of reviewers rate it 4★ or 5★, with words like “burrata”, “vegan”, “cashew” recurring across happy reviews.",
+    "about": "Urban Verde collects strongly positive feedback — about 82% of reviewers rate it 4★ or 5★, with “burrata”, “lovely”, “great” recurring across happy reviews.",
     "famousFor": [
       {
         "name": "Burrata",
+        "why": "praised in 3+ reviews"
+      },
+      {
+        "name": "Lovely",
+        "why": "praised in 3+ reviews"
+      },
+      {
+        "name": "Great",
         "why": "praised in 3+ reviews"
       },
       {
@@ -146,19 +157,13 @@
       {
         "name": "Beet",
         "why": "praised in 2+ reviews"
-      },
-      {
-        "name": "Tartare",
-        "why": "praised in 2+ reviews"
-      },
-      {
-        "name": "Best",
-        "why": "praised in 2+ reviews"
       }
     ],
     "thingsToNotice": [
-      "some find prices on the higher side",
-      "gets crowded and noisy at peak hours"
+      "bring cash — card payments can fail",
+      "service can be uneven per some guests",
+      "occasional food consistency reports",
+      "can mean waits at busy times"
     ],
     "atmosphere": "Guests mostly describe the vibe warmly and keep coming back.",
     "bestFor": [
@@ -166,12 +171,12 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "78% positive · 11% mixed · 11% negative across 9 reviews.",
-    "engine": "brand-rules-engine",
-    "generatedAt": "2026-09-22 13:47:43"
+    "sentimentSummary": "82% positive · 9% mixed · 9% negative across 11 reviews.",
+    "engine": "google/gemma-2-9b-it:free",
+    "generatedAt": "2026-09-23 02:49:05"
   },
   "5": {
-    "about": "Danube Bites collects strongly positive feedback overall — about 80% of reviewers rate it 4★ or 5★, with words like “lángos”, “garlic”, “crispy” recurring across happy reviews.",
+    "about": "Danube Bites collects strongly positive feedback — about 80% of reviewers rate it 4★ or 5★, with “lángos”, “garlic”, “absolutely” recurring across happy reviews.",
     "famousFor": [
       {
         "name": "Lángos",
@@ -179,6 +184,10 @@
       },
       {
         "name": "Garlic",
+        "why": "praised in 3+ reviews"
+      },
+      {
+        "name": "Absolutely",
         "why": "praised in 3+ reviews"
       },
       {
@@ -190,17 +199,15 @@
         "why": "praised in 2+ reviews"
       },
       {
-        "name": "Smoky",
-        "why": "praised in 2+ reviews"
-      },
-      {
-        "name": "Stall",
+        "name": "Warm",
         "why": "praised in 2+ reviews"
       }
     ],
     "thingsToNotice": [
-      "occasional reports on food consistency",
-      "popular items can sell out early"
+      "can mean waits at busy times",
+      "occasional food consistency reports",
+      "bring cash — card payments can fail",
+      "service can be uneven per some guests"
     ],
     "atmosphere": "Guests mostly describe the vibe warmly and keep coming back.",
     "bestFor": [
@@ -208,8 +215,8 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "80% positive · 10% mixed · 10% negative across 10 reviews.",
-    "engine": "brand-rules-engine",
-    "generatedAt": "2026-09-22 13:47:43"
+    "sentimentSummary": "80% positive · 7% mixed · 13% negative across 15 reviews.",
+    "engine": "google/gemma-2-9b-it:free",
+    "generatedAt": "2026-09-23 02:49:05"
   }
 }
