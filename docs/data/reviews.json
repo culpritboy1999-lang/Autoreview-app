@@ -1237,5 +1237,53 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "mixed"
+  },
+  {
+    "id": 73,
+    "businessId": 1,
+    "googleReviewId": "demo-1790171114617-wn3zcr",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-09-23 13:45:14",
+    "fetchedAt": "2026-09-23 13:45:14",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Café Aroma — can't wait to welcome you back!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-23 13:45:14",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 74,
+    "businessId": 3,
+    "googleReviewId": "demo-1790171114849-44upub",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-09-23 13:45:14",
+    "fetchedAt": "2026-09-23 13:45:14",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Golden Crust Bakery — can't wait to welcome you back!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-23 13:45:14",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 75,
+    "businessId": 4,
+    "googleReviewId": "demo-1790171114978-ssogqx",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-09-23 13:45:14",
+    "fetchedAt": "2026-09-23 13:45:14",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Urban Verde. See you again soon!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-23 13:45:15",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
