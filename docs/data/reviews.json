@@ -1397,5 +1397,37 @@
     "repliedAt": "2026-09-24 05:07:15",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 83,
+    "businessId": 4,
+    "googleReviewId": "demo-1790245045363-54fvlt",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-09-24 10:17:25",
+    "fetchedAt": "2026-09-24 10:17:25",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Urban Verde — can't wait to welcome you back!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-24 10:17:25",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 84,
+    "businessId": 5,
+    "googleReviewId": "demo-1790245045543-h2ci2x",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-09-24 10:17:25",
+    "fetchedAt": "2026-09-24 10:17:25",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to Danube Bites for a flawless visit.\n— Danube Bites crew 🧡",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
   }
 ]
