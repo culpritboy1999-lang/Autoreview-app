@@ -29,8 +29,8 @@
     "connection": "demo",
     "googleLocationName": "locations/demo_rustic-spoon",
     "placeId": "demo_place_rustic-spoon",
-    "ratingAvg": 4,
-    "reviewsTotal": 13,
+    "ratingAvg": 4.1,
+    "reviewsTotal": 14,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "professional",
@@ -73,8 +73,8 @@
     "connection": "demo",
     "googleLocationName": "locations/demo_urban-verde",
     "placeId": "demo_place_urban-verde",
-    "ratingAvg": 4.3,
-    "reviewsTotal": 12,
+    "ratingAvg": 4.4,
+    "reviewsTotal": 13,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "friendly",
