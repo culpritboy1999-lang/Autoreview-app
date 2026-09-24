@@ -1349,5 +1349,21 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 80,
+    "businessId": 5,
+    "googleReviewId": "demo-1790208540352-scj4my",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-09-24 00:09:00",
+    "fetchedAt": "2026-09-24 00:09:00",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Danube Bites — can't wait to welcome you back!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-24 00:09:00",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
