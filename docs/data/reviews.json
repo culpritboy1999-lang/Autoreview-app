@@ -1573,5 +1573,53 @@
     "repliedAt": "2026-09-24 22:35:29",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 94,
+    "businessId": 1,
+    "googleReviewId": "demo-1790298197075-1g06tu",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-09-25 01:03:17",
+    "fetchedAt": "2026-09-25 01:03:17",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Café Aroma. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Team Café Aroma ☕",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 95,
+    "businessId": 3,
+    "googleReviewId": "demo-1790298197270-rsa4fv",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-09-25 01:03:17",
+    "fetchedAt": "2026-09-25 01:03:17",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Golden Crust Bakery. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 96,
+    "businessId": 4,
+    "googleReviewId": "demo-1790298197319-ena5dn",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-09-25 01:03:17",
+    "fetchedAt": "2026-09-25 01:03:17",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Urban Verde — can't wait to welcome you back!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-25 01:03:17",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
