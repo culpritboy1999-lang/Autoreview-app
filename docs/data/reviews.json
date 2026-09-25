@@ -1653,5 +1653,37 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 99,
+    "businessId": 1,
+    "googleReviewId": "demo-1790337748371-k6luqb",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-09-25 12:02:28",
+    "fetchedAt": "2026-09-25 12:02:28",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Café Aroma. See you again soon!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-25 12:02:28",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 100,
+    "businessId": 5,
+    "googleReviewId": "demo-1790337748539-pe3vgl",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-09-25 12:02:28",
+    "fetchedAt": "2026-09-25 12:02:28",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Danube Bites. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Danube Bites crew 🧡",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
