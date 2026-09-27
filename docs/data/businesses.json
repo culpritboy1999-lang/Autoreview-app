@@ -30,7 +30,7 @@
     "googleLocationName": "locations/demo_rustic-spoon",
     "placeId": "demo_place_rustic-spoon",
     "ratingAvg": 4.2,
-    "reviewsTotal": 17,
+    "reviewsTotal": 18,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "professional",
@@ -96,7 +96,7 @@
     "googleLocationName": "locations/demo_danube-bites",
     "placeId": "demo_place_danube-bites",
     "ratingAvg": 4.3,
-    "reviewsTotal": 16,
+    "reviewsTotal": 17,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "quirky",

@@ -2037,5 +2037,53 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 123,
+    "businessId": 2,
+    "googleReviewId": "demo-1790473026867-hfqp5d",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-09-27 01:37:06",
+    "fetchedAt": "2026-09-27 01:37:06",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at The Rustic Spoon. See you again soon!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-27 01:37:07",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 124,
+    "businessId": 4,
+    "googleReviewId": "demo-1790473027033-95ywoq",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-09-27 01:37:07",
+    "fetchedAt": "2026-09-27 01:37:07",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at Urban Verde — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Urban Verde 🌱",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 125,
+    "businessId": 5,
+    "googleReviewId": "demo-1790473027059-c519d7",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-09-27 01:37:07",
+    "fetchedAt": "2026-09-27 01:37:07",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at Danube Bites. See you again soon!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-27 01:37:07",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
