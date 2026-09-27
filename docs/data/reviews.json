@@ -2085,5 +2085,53 @@
     "repliedAt": "2026-09-27 01:37:07",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 126,
+    "businessId": 3,
+    "googleReviewId": "demo-1790493855070-qox13o",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-09-27 07:24:15",
+    "fetchedAt": "2026-09-27 07:24:15",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Golden Crust Bakery — can't wait to welcome you back!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-27 07:24:15",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 127,
+    "businessId": 4,
+    "googleReviewId": "demo-1790493855382-cmc8dj",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-09-27 07:24:15",
+    "fetchedAt": "2026-09-27 07:24:15",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Urban Verde. See you again soon!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-27 07:24:15",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 128,
+    "businessId": 5,
+    "googleReviewId": "demo-1790493855444-u2m1bh",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-09-27 07:24:15",
+    "fetchedAt": "2026-09-27 07:24:15",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to Danube Bites for a flawless visit.\n— Danube Bites crew 🧡",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
   }
 ]
