@@ -2261,5 +2261,21 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "mixed"
+  },
+  {
+    "id": 137,
+    "businessId": 5,
+    "googleReviewId": "demo-1790563818469-skxk0r",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-09-28 02:50:18",
+    "fetchedAt": "2026-09-28 02:50:18",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at Danube Bites. See you again soon!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-09-28 02:50:18",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
