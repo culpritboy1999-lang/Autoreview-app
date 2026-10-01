@@ -2725,5 +2725,37 @@
     "repliedAt": "2026-10-01 06:15:42",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 166,
+    "businessId": 4,
+    "googleReviewId": "demo-1790861919173-evejtx",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-10-01 13:38:39",
+    "fetchedAt": "2026-10-01 13:38:39",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Urban Verde — can't wait to welcome you back!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-01 13:38:39",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 167,
+    "businessId": 5,
+    "googleReviewId": "demo-1790861919378-fnynen",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-10-01 13:38:39",
+    "fetchedAt": "2026-10-01 13:38:39",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Danube Bites. See you again soon!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-01 13:38:39",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]

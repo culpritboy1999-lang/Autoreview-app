@@ -74,7 +74,7 @@
     "googleLocationName": "locations/demo_urban-verde",
     "placeId": "demo_place_urban-verde",
     "ratingAvg": 4.5,
-    "reviewsTotal": 23,
+    "reviewsTotal": 24,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "friendly",
@@ -96,7 +96,7 @@
     "googleLocationName": "locations/demo_danube-bites",
     "placeId": "demo_place_danube-bites",
     "ratingAvg": 4.5,
-    "reviewsTotal": 22,
+    "reviewsTotal": 23,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "quirky",
