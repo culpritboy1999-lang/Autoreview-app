@@ -2645,5 +2645,53 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 161,
+    "businessId": 2,
+    "googleReviewId": "demo-1790813828051-vlxapp",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-10-01 00:17:08",
+    "fetchedAt": "2026-10-01 00:17:08",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at The Rustic Spoon. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— The Rustic Spoon Team",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 162,
+    "businessId": 3,
+    "googleReviewId": "demo-1790813828218-veadxm",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-10-01 00:17:08",
+    "fetchedAt": "2026-10-01 00:17:08",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Golden Crust Bakery. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 163,
+    "businessId": 4,
+    "googleReviewId": "demo-1790813828256-zweg7z",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-10-01 00:17:08",
+    "fetchedAt": "2026-10-01 00:17:08",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to Urban Verde for a flawless visit.\n— Urban Verde 🌱",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
   }
 ]
