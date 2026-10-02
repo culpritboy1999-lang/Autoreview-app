@@ -2805,5 +2805,37 @@
     "repliedAt": "2026-10-01 23:17:47",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 171,
+    "businessId": 2,
+    "googleReviewId": "demo-1790907770920-zpxip3",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-10-02 02:22:50",
+    "fetchedAt": "2026-10-02 02:22:50",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to The Rustic Spoon — can't wait to welcome you back!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-02 02:22:51",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 172,
+    "businessId": 3,
+    "googleReviewId": "demo-1790907771272-ylhps8",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-10-02 02:22:51",
+    "fetchedAt": "2026-10-02 02:22:51",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at Golden Crust Bakery. See you again soon!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-02 02:22:51",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
