@@ -2901,5 +2901,21 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 177,
+    "businessId": 3,
+    "googleReviewId": "demo-1790971297028-q2l4sg",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-10-02 20:01:37",
+    "fetchedAt": "2026-10-02 20:01:37",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at Golden Crust Bakery. See you again soon!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-02 20:01:37",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
