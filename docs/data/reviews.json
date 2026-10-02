@@ -2869,5 +2869,37 @@
     "repliedAt": "2026-10-02 08:45:17",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 175,
+    "businessId": 1,
+    "googleReviewId": "demo-1790954021759-vjn90v",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-10-02 15:13:41",
+    "fetchedAt": "2026-10-02 15:13:41",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at Café Aroma — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Team Café Aroma ☕",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 176,
+    "businessId": 3,
+    "googleReviewId": "demo-1790954022012-78l0vr",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-10-02 15:13:42",
+    "fetchedAt": "2026-10-02 15:13:42",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at Golden Crust Bakery — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
