@@ -2917,5 +2917,53 @@
     "repliedAt": "2026-10-02 20:01:37",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 178,
+    "businessId": 1,
+    "googleReviewId": "demo-1790985253357-bxyhqu",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-10-02 23:54:13",
+    "fetchedAt": "2026-10-02 23:54:13",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Café Aroma. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Team Café Aroma ☕",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 179,
+    "businessId": 2,
+    "googleReviewId": "demo-1790985253596-hhj7km",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-10-02 23:54:13",
+    "fetchedAt": "2026-10-02 23:54:13",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at The Rustic Spoon. See you again soon!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-02 23:54:13",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 180,
+    "businessId": 4,
+    "googleReviewId": "demo-1790985253670-k5tjhn",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-10-02 23:54:13",
+    "fetchedAt": "2026-10-02 23:54:13",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Urban Verde. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Urban Verde 🌱",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
