@@ -3061,5 +3061,53 @@
     "repliedAt": "2026-10-03 18:04:53",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 187,
+    "businessId": 1,
+    "googleReviewId": "demo-1791063358752-616q7e",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-10-03 21:35:58",
+    "fetchedAt": "2026-10-03 21:35:58",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Café Aroma. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Team Café Aroma ☕",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 188,
+    "businessId": 3,
+    "googleReviewId": "demo-1791063358957-l9klo3",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-10-03 21:35:58",
+    "fetchedAt": "2026-10-03 21:35:58",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at Golden Crust Bakery — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 189,
+    "businessId": 4,
+    "googleReviewId": "demo-1791063359014-b6bogs",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-10-03 21:35:59",
+    "fetchedAt": "2026-10-03 21:35:59",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Urban Verde. See you again soon!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-03 21:35:59",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
