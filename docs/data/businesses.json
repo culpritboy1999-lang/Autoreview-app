@@ -52,7 +52,7 @@
     "googleLocationName": "locations/demo_golden-crust",
     "placeId": "demo_place_golden-crust",
     "ratingAvg": 4.5,
-    "reviewsTotal": 21,
+    "reviewsTotal": 22,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "playful",
@@ -74,7 +74,7 @@
     "googleLocationName": "locations/demo_urban-verde",
     "placeId": "demo_place_urban-verde",
     "ratingAvg": 4.5,
-    "reviewsTotal": 27,
+    "reviewsTotal": 28,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "friendly",
