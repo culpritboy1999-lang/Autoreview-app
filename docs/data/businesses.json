@@ -30,7 +30,7 @@
     "googleLocationName": "locations/demo_rustic-spoon",
     "placeId": "demo_place_rustic-spoon",
     "ratingAvg": 4.3,
-    "reviewsTotal": 24,
+    "reviewsTotal": 25,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "professional",
@@ -52,7 +52,7 @@
     "googleLocationName": "locations/demo_golden-crust",
     "placeId": "demo_place_golden-crust",
     "ratingAvg": 4.5,
-    "reviewsTotal": 24,
+    "reviewsTotal": 25,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "playful",
@@ -96,7 +96,7 @@
     "googleLocationName": "locations/demo_danube-bites",
     "placeId": "demo_place_danube-bites",
     "ratingAvg": 4.4,
-    "reviewsTotal": 27,
+    "reviewsTotal": 28,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "quirky",
