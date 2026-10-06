@@ -3589,5 +3589,37 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 220,
+    "businessId": 1,
+    "googleReviewId": "demo-1791329342739-g5zb5l",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-10-06 23:29:02",
+    "fetchedAt": "2026-10-06 23:29:02",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to Café Aroma for a flawless visit.\n— Team Café Aroma ☕",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
+  },
+  {
+    "id": 221,
+    "businessId": 2,
+    "googleReviewId": "demo-1791329342950-oc81l0",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-10-06 23:29:02",
+    "fetchedAt": "2026-10-06 23:29:02",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at The Rustic Spoon. See you again soon!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-06 23:29:02",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
