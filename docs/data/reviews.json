@@ -3557,5 +3557,37 @@
     "repliedAt": "2026-10-06 14:18:55",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 218,
+    "businessId": 2,
+    "googleReviewId": "demo-1791315470786-gsjtch",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-10-06 19:37:50",
+    "fetchedAt": "2026-10-06 19:37:50",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to The Rustic Spoon — can't wait to welcome you back!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-06 19:37:51",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 219,
+    "businessId": 3,
+    "googleReviewId": "demo-1791315471038-5yhtpm",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-10-06 19:37:51",
+    "fetchedAt": "2026-10-06 19:37:51",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Golden Crust Bakery. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
