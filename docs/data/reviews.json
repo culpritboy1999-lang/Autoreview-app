@@ -3813,5 +3813,53 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 234,
+    "businessId": 1,
+    "googleReviewId": "demo-1791450880015-q78s6g",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-10-08 09:14:40",
+    "fetchedAt": "2026-10-08 09:14:40",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Café Aroma — can't wait to welcome you back!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-08 09:14:40",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 235,
+    "businessId": 4,
+    "googleReviewId": "demo-1791450880303-1jnww1",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-10-08 09:14:40",
+    "fetchedAt": "2026-10-08 09:14:40",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Urban Verde. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Urban Verde 🌱",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 236,
+    "businessId": 5,
+    "googleReviewId": "demo-1791450880332-tj91ie",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-10-08 09:14:40",
+    "fetchedAt": "2026-10-08 09:14:40",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Danube Bites — can't wait to welcome you back!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-08 09:14:40",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
