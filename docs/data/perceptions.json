@@ -42,7 +42,7 @@
     ],
     "sentimentSummary": "66% positive · 8% mixed · 25% negative across 59 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-08 09:14:40"
+    "generatedAt": "2026-10-08 21:40:46"
   },
   "2": {
     "about": "The Rustic Spoon collects strongly positive feedback — about 62% of reviewers rate it 4★ or 5★, with “great”, “lovely”, “food” recurring across happy reviews.",
@@ -85,7 +85,7 @@
     ],
     "sentimentSummary": "62% positive · 7% mixed · 31% negative across 45 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-08 09:14:40"
+    "generatedAt": "2026-10-08 21:40:46"
   },
   "3": {
     "about": "Golden Crust Bakery collects strongly positive feedback — about 58% of reviewers rate it 4★ or 5★, with “absolutely”, “faces”, “staff” recurring across happy reviews.",
@@ -129,7 +129,7 @@
     ],
     "sentimentSummary": "58% positive · 9% mixed · 33% negative across 43 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-08 09:14:40"
+    "generatedAt": "2026-10-08 21:40:46"
   },
   "4": {
     "about": "Urban Verde collects strongly positive feedback — about 70% of reviewers rate it 4★ or 5★, with “absolutely”, “lovely”, “great” recurring across happy reviews.",
@@ -173,10 +173,10 @@
     ],
     "sentimentSummary": "70% positive · 12% mixed · 19% negative across 43 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-08 09:14:40"
+    "generatedAt": "2026-10-08 21:40:46"
   },
   "5": {
-    "about": "Danube Bites collects strongly positive feedback — about 61% of reviewers rate it 4★ or 5★, with “absolutely”, “warm”, “staff” recurring across happy reviews.",
+    "about": "Danube Bites collects strongly positive feedback — about 60% of reviewers rate it 4★ or 5★, with “absolutely”, “warm”, “staff” recurring across happy reviews.",
     "famousFor": [
       {
         "name": "Absolutely",
@@ -215,8 +215,8 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "61% positive · 13% mixed · 26% negative across 46 reviews.",
+    "sentimentSummary": "60% positive · 15% mixed · 26% negative across 47 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-08 09:14:40"
+    "generatedAt": "2026-10-08 21:40:46"
   }
 }
