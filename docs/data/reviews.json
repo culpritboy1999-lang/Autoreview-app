@@ -3861,5 +3861,21 @@
     "repliedAt": "2026-10-08 09:14:40",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 237,
+    "businessId": 5,
+    "googleReviewId": "demo-1791477715779-4qw1o7",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-10-08 16:41:55",
+    "fetchedAt": "2026-10-08 16:41:55",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to Danube Bites for a flawless visit.\n— Danube Bites crew 🧡",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
   }
 ]
