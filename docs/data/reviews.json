@@ -3925,5 +3925,37 @@
     "repliedAt": "2026-10-09 08:14:23",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 241,
+    "businessId": 1,
+    "googleReviewId": "demo-1791559526087-hfwjop",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-10-09 15:25:26",
+    "fetchedAt": "2026-10-09 15:25:26",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Café Aroma — can't wait to welcome you back!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-09 15:25:26",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 242,
+    "businessId": 3,
+    "googleReviewId": "demo-1791559526286-pen4qw",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-10-09 15:25:26",
+    "fetchedAt": "2026-10-09 15:25:26",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Golden Crust Bakery — can't wait to welcome you back!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-09 15:25:26",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
