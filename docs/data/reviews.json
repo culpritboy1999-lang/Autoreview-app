@@ -4133,5 +4133,37 @@
     "repliedAt": "2026-10-10 17:33:47",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 254,
+    "businessId": 3,
+    "googleReviewId": "demo-1791665827985-o50ysj",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-10-10 20:57:07",
+    "fetchedAt": "2026-10-10 20:57:07",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to Golden Crust Bakery for a flawless visit.\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
+  },
+  {
+    "id": 255,
+    "businessId": 4,
+    "googleReviewId": "demo-1791665828156-t14m7k",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-10-10 20:57:08",
+    "fetchedAt": "2026-10-10 20:57:08",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Urban Verde. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Urban Verde 🌱",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
