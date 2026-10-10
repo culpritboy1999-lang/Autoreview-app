@@ -4037,5 +4037,53 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "mixed"
+  },
+  {
+    "id": 248,
+    "businessId": 1,
+    "googleReviewId": "demo-1791612463907-woybcl",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-10-10 06:07:43",
+    "fetchedAt": "2026-10-10 06:07:43",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at Café Aroma. See you again soon!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-10 06:07:44",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 249,
+    "businessId": 2,
+    "googleReviewId": "demo-1791612464116-k82ovs",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-10-10 06:07:44",
+    "fetchedAt": "2026-10-10 06:07:44",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to The Rustic Spoon for a flawless visit.\n— The Rustic Spoon Team",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
+  },
+  {
+    "id": 250,
+    "businessId": 5,
+    "googleReviewId": "demo-1791612464174-pqffy9",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-10-10 06:07:44",
+    "fetchedAt": "2026-10-10 06:07:44",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at Danube Bites. See you again soon!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-10 06:07:44",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
