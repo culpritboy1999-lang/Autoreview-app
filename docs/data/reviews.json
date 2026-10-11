@@ -4229,5 +4229,53 @@
     "repliedAt": "2026-10-11 13:11:52",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 260,
+    "businessId": 1,
+    "googleReviewId": "demo-1791742396232-9nx59k",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-10-11 18:13:16",
+    "fetchedAt": "2026-10-11 18:13:16",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Café Aroma. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Team Café Aroma ☕",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 261,
+    "businessId": 2,
+    "googleReviewId": "demo-1791742396408-lj9xus",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-10-11 18:13:16",
+    "fetchedAt": "2026-10-11 18:13:16",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at The Rustic Spoon. See you again soon!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-11 18:13:16",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 262,
+    "businessId": 3,
+    "googleReviewId": "demo-1791742396483-lu3h4x",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-10-11 18:13:16",
+    "fetchedAt": "2026-10-11 18:13:16",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Golden Crust Bakery. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
