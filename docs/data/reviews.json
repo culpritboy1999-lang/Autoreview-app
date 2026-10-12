@@ -4309,5 +4309,53 @@
     "repliedAt": "2026-10-11 22:11:50",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 265,
+    "businessId": 2,
+    "googleReviewId": "demo-1791768485810-d0e1u5",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-10-12 01:28:05",
+    "fetchedAt": "2026-10-12 01:28:05",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at The Rustic Spoon. See you again soon!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-12 01:28:06",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 266,
+    "businessId": 4,
+    "googleReviewId": "demo-1791768486191-dfs5eg",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-10-12 01:28:06",
+    "fetchedAt": "2026-10-12 01:28:06",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Urban Verde. See you again soon!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-12 01:28:06",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 267,
+    "businessId": 5,
+    "googleReviewId": "demo-1791768486289-fszape",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-10-12 01:28:06",
+    "fetchedAt": "2026-10-12 01:28:06",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Danube Bites. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Danube Bites crew 🧡",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
