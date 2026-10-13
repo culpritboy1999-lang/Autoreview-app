@@ -4549,5 +4549,21 @@
     "repliedAt": "2026-10-13 12:23:19",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 280,
+    "businessId": 2,
+    "googleReviewId": "demo-1791933685584-ews7cs",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-10-13 23:21:25",
+    "fetchedAt": "2026-10-13 23:21:25",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at The Rustic Spoon. See you again soon!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-13 23:21:25",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
