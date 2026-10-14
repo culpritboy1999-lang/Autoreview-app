@@ -4645,5 +4645,53 @@
     "repliedAt": "2026-10-14 13:12:43",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 286,
+    "businessId": 1,
+    "googleReviewId": "demo-1792001126825-c5iowr",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-10-14 18:05:26",
+    "fetchedAt": "2026-10-14 18:05:26",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Café Aroma — can't wait to welcome you back!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-14 18:05:27",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 287,
+    "businessId": 2,
+    "googleReviewId": "demo-1792001127043-23he2m",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-10-14 18:05:27",
+    "fetchedAt": "2026-10-14 18:05:27",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to The Rustic Spoon for a flawless visit.\n— The Rustic Spoon Team",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
+  },
+  {
+    "id": 288,
+    "businessId": 5,
+    "googleReviewId": "demo-1792001127103-zumjsw",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-10-14 18:05:27",
+    "fetchedAt": "2026-10-14 18:05:27",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to Danube Bites for a flawless visit.\n— Danube Bites crew 🧡",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
   }
 ]
