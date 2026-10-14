@@ -4693,5 +4693,53 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "mixed"
+  },
+  {
+    "id": 289,
+    "businessId": 1,
+    "googleReviewId": "demo-1792014652060-164833",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-10-14 21:50:52",
+    "fetchedAt": "2026-10-14 21:50:52",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to Café Aroma for a flawless visit.\n— Team Café Aroma ☕",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
+  },
+  {
+    "id": 290,
+    "businessId": 3,
+    "googleReviewId": "demo-1792014652240-d78akl",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-10-14 21:50:52",
+    "fetchedAt": "2026-10-14 21:50:52",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Golden Crust Bakery. See you again soon!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-14 21:50:52",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 291,
+    "businessId": 4,
+    "googleReviewId": "demo-1792014652279-s24qjj",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-10-14 21:50:52",
+    "fetchedAt": "2026-10-14 21:50:52",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to Urban Verde for a flawless visit.\n— Urban Verde 🌱",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
   }
 ]
