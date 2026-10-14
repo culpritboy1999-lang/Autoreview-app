@@ -4565,5 +4565,21 @@
     "repliedAt": "2026-10-13 23:21:25",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 281,
+    "businessId": 1,
+    "googleReviewId": "demo-1791943314110-z9rpny",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-10-14 02:01:54",
+    "fetchedAt": "2026-10-14 02:01:54",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to Café Aroma for a flawless visit.\n— Team Café Aroma ☕",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
   }
 ]
