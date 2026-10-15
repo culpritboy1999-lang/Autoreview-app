@@ -4853,5 +4853,53 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 299,
+    "businessId": 2,
+    "googleReviewId": "demo-1792090072207-sc1qx3",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-10-15 18:47:52",
+    "fetchedAt": "2026-10-15 18:47:52",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at The Rustic Spoon. See you again soon!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-15 18:47:52",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 300,
+    "businessId": 3,
+    "googleReviewId": "demo-1792090072367-9jwgik",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-10-15 18:47:52",
+    "fetchedAt": "2026-10-15 18:47:52",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at Golden Crust Bakery. See you again soon!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-15 18:47:52",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 301,
+    "businessId": 4,
+    "googleReviewId": "demo-1792090072410-g1rc5v",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-10-15 18:47:52",
+    "fetchedAt": "2026-10-15 18:47:52",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Urban Verde. See you again soon!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-15 18:47:52",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
