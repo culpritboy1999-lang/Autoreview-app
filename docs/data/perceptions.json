@@ -40,12 +40,12 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "65% positive · 8% mixed · 27% negative across 75 reviews.",
+    "sentimentSummary": "65% positive · 9% mixed · 26% negative across 77 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-14 18:05:27"
+    "generatedAt": "2026-10-15 09:35:15"
   },
   "2": {
-    "about": "The Rustic Spoon collects strongly positive feedback — about 59% of reviewers rate it 4★ or 5★, with “great”, “lovely”, “food” recurring across happy reviews.",
+    "about": "The Rustic Spoon collects strongly positive feedback — about 58% of reviewers rate it 4★ or 5★, with “great”, “lovely”, “food” recurring across happy reviews.",
     "famousFor": [
       {
         "name": "Great",
@@ -83,20 +83,24 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "59% positive · 11% mixed · 30% negative across 54 reviews.",
+    "sentimentSummary": "58% positive · 11% mixed · 31% negative across 55 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-14 18:05:27"
+    "generatedAt": "2026-10-15 09:35:15"
   },
   "3": {
-    "about": "Golden Crust Bakery collects strongly positive feedback — about 57% of reviewers rate it 4★ or 5★, with “absolutely”, “perfect”, “good” recurring across happy reviews.",
+    "about": "Golden Crust Bakery collects strongly positive feedback — about 57% of reviewers rate it 4★ or 5★, with “absolutely”, “perfect”, “staff” recurring across happy reviews.",
     "famousFor": [
       {
         "name": "Absolutely",
-        "why": "praised in 12+ reviews"
+        "why": "praised in 14+ reviews"
       },
       {
         "name": "Perfect",
         "why": "praised in 9+ reviews"
+      },
+      {
+        "name": "Staff",
+        "why": "praised in 8+ reviews"
       },
       {
         "name": "Good",
@@ -108,10 +112,6 @@
       },
       {
         "name": "Overall",
-        "why": "praised in 8+ reviews"
-      },
-      {
-        "name": "Tiny",
         "why": "praised in 8+ reviews"
       }
     ],
@@ -127,12 +127,12 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "57% positive · 12% mixed · 31% negative across 51 reviews.",
+    "sentimentSummary": "57% positive · 13% mixed · 30% negative across 54 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-14 18:05:27"
+    "generatedAt": "2026-10-15 09:35:15"
   },
   "4": {
-    "about": "Urban Verde collects strongly positive feedback — about 67% of reviewers rate it 4★ or 5★, with “absolutely”, “delicious”, “staff” recurring across happy reviews.",
+    "about": "Urban Verde collects strongly positive feedback — about 65% of reviewers rate it 4★ or 5★, with “absolutely”, “delicious”, “staff” recurring across happy reviews.",
     "famousFor": [
       {
         "name": "Absolutely",
@@ -171,12 +171,12 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "67% positive · 14% mixed · 20% negative across 51 reviews.",
+    "sentimentSummary": "65% positive · 15% mixed · 20% negative across 54 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-14 18:05:27"
+    "generatedAt": "2026-10-15 09:35:15"
   },
   "5": {
-    "about": "Danube Bites collects strongly positive feedback — about 61% of reviewers rate it 4★ or 5★, with “absolutely”, “enjoyed”, “small” recurring across happy reviews.",
+    "about": "Danube Bites collects strongly positive feedback — about 60% of reviewers rate it 4★ or 5★, with “absolutely”, “enjoyed”, “small” recurring across happy reviews.",
     "famousFor": [
       {
         "name": "Absolutely",
@@ -215,8 +215,8 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "61% positive · 16% mixed · 23% negative across 57 reviews.",
+    "sentimentSummary": "60% positive · 16% mixed · 24% negative across 58 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-14 18:05:27"
+    "generatedAt": "2026-10-15 09:35:15"
   }
 }
