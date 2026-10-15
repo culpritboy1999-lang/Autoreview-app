@@ -4,7 +4,7 @@
     "famousFor": [
       {
         "name": "Absolutely",
-        "why": "praised in 25+ reviews"
+        "why": "praised in 26+ reviews"
       },
       {
         "name": "Tiny",
@@ -40,12 +40,12 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "65% positive · 9% mixed · 26% negative across 77 reviews.",
+    "sentimentSummary": "65% positive · 9% mixed · 26% negative across 78 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-15 09:35:15"
+    "generatedAt": "2026-10-15 21:53:07"
   },
   "2": {
-    "about": "The Rustic Spoon collects strongly positive feedback — about 58% of reviewers rate it 4★ or 5★, with “great”, “lovely”, “food” recurring across happy reviews.",
+    "about": "The Rustic Spoon collects strongly positive feedback — about 59% of reviewers rate it 4★ or 5★, with “great”, “lovely”, “food” recurring across happy reviews.",
     "famousFor": [
       {
         "name": "Great",
@@ -60,15 +60,15 @@
         "why": "praised in 11+ reviews"
       },
       {
+        "name": "Absolutely",
+        "why": "praised in 10+ reviews"
+      },
+      {
         "name": "Marks",
         "why": "praised in 10+ reviews"
       },
       {
         "name": "Friendly",
-        "why": "praised in 10+ reviews"
-      },
-      {
-        "name": "Faces",
         "why": "praised in 10+ reviews"
       }
     ],
@@ -83,9 +83,9 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "58% positive · 11% mixed · 31% negative across 55 reviews.",
+    "sentimentSummary": "59% positive · 11% mixed · 30% negative across 56 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-15 09:35:15"
+    "generatedAt": "2026-10-15 21:53:07"
   },
   "3": {
     "about": "Golden Crust Bakery collects strongly positive feedback — about 57% of reviewers rate it 4★ or 5★, with “absolutely”, “perfect”, “staff” recurring across happy reviews.",
@@ -103,15 +103,15 @@
         "why": "praised in 8+ reviews"
       },
       {
+        "name": "Faces",
+        "why": "praised in 8+ reviews"
+      },
+      {
         "name": "Good",
         "why": "praised in 8+ reviews"
       },
       {
         "name": "Experience",
-        "why": "praised in 8+ reviews"
-      },
-      {
-        "name": "Overall",
         "why": "praised in 8+ reviews"
       }
     ],
@@ -127,36 +127,36 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "57% positive · 13% mixed · 30% negative across 54 reviews.",
+    "sentimentSummary": "57% positive · 13% mixed · 30% negative across 56 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-15 09:35:15"
+    "generatedAt": "2026-10-15 21:53:07"
   },
   "4": {
-    "about": "Urban Verde collects strongly positive feedback — about 65% of reviewers rate it 4★ or 5★, with “absolutely”, “delicious”, “staff” recurring across happy reviews.",
+    "about": "Urban Verde collects strongly positive feedback — about 66% of reviewers rate it 4★ or 5★, with “absolutely”, “delicious”, “staff” recurring across happy reviews.",
     "famousFor": [
       {
         "name": "Absolutely",
-        "why": "praised in 16+ reviews"
+        "why": "praised in 17+ reviews"
       },
       {
         "name": "Delicious",
-        "why": "praised in 10+ reviews"
+        "why": "praised in 11+ reviews"
       },
       {
         "name": "Staff",
-        "why": "praised in 10+ reviews"
+        "why": "praised in 11+ reviews"
       },
       {
         "name": "Wonderful",
-        "why": "praised in 9+ reviews"
+        "why": "praised in 10+ reviews"
       },
       {
         "name": "Warm",
-        "why": "praised in 9+ reviews"
+        "why": "praised in 10+ reviews"
       },
       {
         "name": "Beautiful",
-        "why": "praised in 9+ reviews"
+        "why": "praised in 10+ reviews"
       }
     ],
     "thingsToNotice": [
@@ -171,12 +171,12 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "65% positive · 15% mixed · 20% negative across 54 reviews.",
+    "sentimentSummary": "66% positive · 14% mixed · 20% negative across 56 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-15 09:35:15"
+    "generatedAt": "2026-10-15 21:53:07"
   },
   "5": {
-    "about": "Danube Bites collects strongly positive feedback — about 60% of reviewers rate it 4★ or 5★, with “absolutely”, “enjoyed”, “small” recurring across happy reviews.",
+    "about": "Danube Bites collects strongly positive feedback — about 61% of reviewers rate it 4★ or 5★, with “absolutely”, “enjoyed”, “small” recurring across happy reviews.",
     "famousFor": [
       {
         "name": "Absolutely",
@@ -215,8 +215,8 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "60% positive · 16% mixed · 24% negative across 58 reviews.",
+    "sentimentSummary": "61% positive · 15% mixed · 24% negative across 59 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-15 09:35:15"
+    "generatedAt": "2026-10-15 21:53:07"
   }
 }
