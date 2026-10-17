@@ -5365,5 +5365,37 @@
     "repliedAt": "2026-10-17 21:14:30",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 331,
+    "businessId": 2,
+    "googleReviewId": "demo-1792278938398-6yxft9",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-10-17 23:15:38",
+    "fetchedAt": "2026-10-17 23:15:38",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at The Rustic Spoon. See you again soon!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-17 23:15:38",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 332,
+    "businessId": 4,
+    "googleReviewId": "demo-1792278938544-d0ace7",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-10-17 23:15:38",
+    "fetchedAt": "2026-10-17 23:15:38",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Urban Verde. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Urban Verde 🌱",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
