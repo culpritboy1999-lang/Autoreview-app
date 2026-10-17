@@ -5237,5 +5237,21 @@
     "repliedAt": "2026-10-17 05:15:55",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 323,
+    "businessId": 3,
+    "googleReviewId": "demo-1792229571455-3ipal4",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-10-17 09:32:51",
+    "fetchedAt": "2026-10-17 09:32:51",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to Golden Crust Bakery for a flawless visit.\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
   }
 ]
