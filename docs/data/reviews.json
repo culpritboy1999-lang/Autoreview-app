@@ -5173,5 +5173,37 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "mixed"
+  },
+  {
+    "id": 319,
+    "businessId": 3,
+    "googleReviewId": "demo-1792198572436-az2fhs",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-10-17 00:56:12",
+    "fetchedAt": "2026-10-17 00:56:12",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to Golden Crust Bakery for a flawless visit.\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
+  },
+  {
+    "id": 320,
+    "businessId": 4,
+    "googleReviewId": "demo-1792198572631-zio1qv",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-10-17 00:56:12",
+    "fetchedAt": "2026-10-17 00:56:12",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Urban Verde — can't wait to welcome you back!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-17 00:56:12",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
