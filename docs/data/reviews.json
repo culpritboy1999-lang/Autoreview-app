@@ -5317,5 +5317,53 @@
     "repliedAt": "2026-10-17 18:57:43",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 328,
+    "businessId": 1,
+    "googleReviewId": "demo-1792271669932-724l3l",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-10-17 21:14:29",
+    "fetchedAt": "2026-10-17 21:14:29",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Café Aroma — can't wait to welcome you back!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-17 21:14:30",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 329,
+    "businessId": 2,
+    "googleReviewId": "demo-1792271670124-50lpuz",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-10-17 21:14:30",
+    "fetchedAt": "2026-10-17 21:14:30",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to The Rustic Spoon — can't wait to welcome you back!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-17 21:14:30",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 330,
+    "businessId": 5,
+    "googleReviewId": "demo-1792271670277-b63sl3",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-10-17 21:14:30",
+    "fetchedAt": "2026-10-17 21:14:30",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Danube Bites — can't wait to welcome you back!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-17 21:14:30",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
