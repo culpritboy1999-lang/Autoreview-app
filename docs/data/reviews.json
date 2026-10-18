@@ -5589,5 +5589,53 @@
     "repliedAt": "2026-10-18 19:54:22",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 345,
+    "businessId": 1,
+    "googleReviewId": "demo-1792361224617-luf2kz",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-10-18 22:07:04",
+    "fetchedAt": "2026-10-18 22:07:04",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Café Aroma. See you again soon!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-18 22:07:05",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 346,
+    "businessId": 2,
+    "googleReviewId": "demo-1792361225037-7ouwfi",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-10-18 22:07:05",
+    "fetchedAt": "2026-10-18 22:07:05",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at The Rustic Spoon — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— The Rustic Spoon Team",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 347,
+    "businessId": 3,
+    "googleReviewId": "demo-1792361225088-a2zp7e",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-10-18 22:07:05",
+    "fetchedAt": "2026-10-18 22:07:05",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Golden Crust Bakery — can't wait to welcome you back!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-18 22:07:05",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
