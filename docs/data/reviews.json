@@ -5573,5 +5573,21 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 344,
+    "businessId": 2,
+    "googleReviewId": "demo-1792353262750-ugmhkm",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-10-18 19:54:22",
+    "fetchedAt": "2026-10-18 19:54:22",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to The Rustic Spoon — can't wait to welcome you back!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-18 19:54:22",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
