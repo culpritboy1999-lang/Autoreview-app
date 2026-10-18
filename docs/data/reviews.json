@@ -5525,5 +5525,37 @@
     "repliedAt": "2026-10-18 11:29:09",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 341,
+    "businessId": 3,
+    "googleReviewId": "demo-1792334709108-5kkz5x",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-10-18 14:45:09",
+    "fetchedAt": "2026-10-18 14:45:09",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Golden Crust Bakery. See you again soon!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-18 14:45:09",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 342,
+    "businessId": 5,
+    "googleReviewId": "demo-1792334709275-32ka00",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-10-18 14:45:09",
+    "fetchedAt": "2026-10-18 14:45:09",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at Danube Bites — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Danube Bites crew 🧡",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
