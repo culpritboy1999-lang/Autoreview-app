@@ -5701,5 +5701,53 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 352,
+    "businessId": 2,
+    "googleReviewId": "demo-1792407676909-3kklsb",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-10-19 11:01:16",
+    "fetchedAt": "2026-10-19 11:01:16",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to The Rustic Spoon — can't wait to welcome you back!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-19 11:01:17",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 353,
+    "businessId": 3,
+    "googleReviewId": "demo-1792407677099-5i941k",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-10-19 11:01:17",
+    "fetchedAt": "2026-10-19 11:01:17",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at Golden Crust Bakery. See you again soon!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-19 11:01:17",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 354,
+    "businessId": 5,
+    "googleReviewId": "demo-1792407677147-h4439t",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-10-19 11:01:17",
+    "fetchedAt": "2026-10-19 11:01:17",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Danube Bites — can't wait to welcome you back!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-19 11:01:17",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
