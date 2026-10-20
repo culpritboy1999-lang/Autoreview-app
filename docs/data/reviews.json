@@ -5909,5 +5909,37 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 365,
+    "businessId": 1,
+    "googleReviewId": "demo-1792474516529-530xvi",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-10-20 05:35:16",
+    "fetchedAt": "2026-10-20 05:35:16",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at Café Aroma — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Team Café Aroma ☕",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 366,
+    "businessId": 4,
+    "googleReviewId": "demo-1792474516781-rewr8n",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-10-20 05:35:16",
+    "fetchedAt": "2026-10-20 05:35:16",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Urban Verde. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Urban Verde 🌱",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
