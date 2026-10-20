@@ -5957,5 +5957,53 @@
     "repliedAt": "2026-10-20 10:43:47",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 368,
+    "businessId": 1,
+    "googleReviewId": "demo-1792510218456-3tu56e",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-10-20 15:30:18",
+    "fetchedAt": "2026-10-20 15:30:18",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Café Aroma. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Team Café Aroma ☕",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 369,
+    "businessId": 3,
+    "googleReviewId": "demo-1792510218737-xsxzx9",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-10-20 15:30:18",
+    "fetchedAt": "2026-10-20 15:30:18",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at Golden Crust Bakery. See you again soon!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-20 15:30:19",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 370,
+    "businessId": 4,
+    "googleReviewId": "demo-1792510219048-3zzg96",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-10-20 15:30:19",
+    "fetchedAt": "2026-10-20 15:30:19",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at Urban Verde. See you again soon!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-20 15:30:19",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
