@@ -6213,5 +6213,53 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 384,
+    "businessId": 3,
+    "googleReviewId": "demo-1792626623959-2nj7k8",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-10-21 23:50:23",
+    "fetchedAt": "2026-10-21 23:50:23",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at Golden Crust Bakery — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 385,
+    "businessId": 4,
+    "googleReviewId": "demo-1792626624172-bw2a6z",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-10-21 23:50:24",
+    "fetchedAt": "2026-10-21 23:50:24",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at Urban Verde — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Urban Verde 🌱",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 386,
+    "businessId": 5,
+    "googleReviewId": "demo-1792626624232-jvnz1s",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-10-21 23:50:24",
+    "fetchedAt": "2026-10-21 23:50:24",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Danube Bites — can't wait to welcome you back!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-21 23:50:27",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
