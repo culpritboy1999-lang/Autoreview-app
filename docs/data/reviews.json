@@ -6341,5 +6341,21 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "mixed"
+  },
+  {
+    "id": 392,
+    "businessId": 3,
+    "googleReviewId": "demo-1792677478217-vshkhq",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-10-22 13:57:58",
+    "fetchedAt": "2026-10-22 13:57:58",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Golden Crust Bakery. See you again soon!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-22 13:57:58",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
