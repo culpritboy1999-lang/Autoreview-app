@@ -6453,5 +6453,53 @@
     "repliedAt": "2026-10-22 21:48:47",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 399,
+    "businessId": 2,
+    "googleReviewId": "demo-1792714632419-zc1ttl",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-10-23 00:17:12",
+    "fetchedAt": "2026-10-23 00:17:12",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at The Rustic Spoon. See you again soon!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-23 00:17:12",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 400,
+    "businessId": 3,
+    "googleReviewId": "demo-1792714632604-kd65mj",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-10-23 00:17:12",
+    "fetchedAt": "2026-10-23 00:17:12",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at Golden Crust Bakery — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 401,
+    "businessId": 5,
+    "googleReviewId": "demo-1792714632638-cxkl7s",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-10-23 00:17:12",
+    "fetchedAt": "2026-10-23 00:17:12",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at Danube Bites — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Danube Bites crew 🧡",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
