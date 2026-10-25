@@ -30,7 +30,7 @@
     "googleLocationName": "locations/demo_rustic-spoon",
     "placeId": "demo_place_rustic-spoon",
     "ratingAvg": 4.5,
-    "reviewsTotal": 48,
+    "reviewsTotal": 49,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "professional",
@@ -52,7 +52,7 @@
     "googleLocationName": "locations/demo_golden-crust",
     "placeId": "demo_place_golden-crust",
     "ratingAvg": 4.5,
-    "reviewsTotal": 45,
+    "reviewsTotal": 46,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "playful",
