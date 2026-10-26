@@ -7141,5 +7141,53 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 442,
+    "businessId": 3,
+    "googleReviewId": "demo-1792993142770-avo7xk",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-10-26 05:39:02",
+    "fetchedAt": "2026-10-26 05:39:02",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to Golden Crust Bakery for a flawless visit.\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
+  },
+  {
+    "id": 443,
+    "businessId": 4,
+    "googleReviewId": "demo-1792993142927-1citlu",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-10-26 05:39:02",
+    "fetchedAt": "2026-10-26 05:39:02",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to Urban Verde for a flawless visit.\n— Urban Verde 🌱",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
+  },
+  {
+    "id": 444,
+    "businessId": 5,
+    "googleReviewId": "demo-1792993142970-4xd1ef",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-10-26 05:39:02",
+    "fetchedAt": "2026-10-26 05:39:02",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Danube Bites — can't wait to welcome you back!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-26 05:39:02",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
