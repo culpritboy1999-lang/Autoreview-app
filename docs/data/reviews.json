@@ -7397,5 +7397,53 @@
     "repliedAt": "2026-10-27 13:26:22",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 458,
+    "businessId": 2,
+    "googleReviewId": "demo-1793126987017-j6e8y3",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-10-27 18:49:47",
+    "fetchedAt": "2026-10-27 18:49:47",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at The Rustic Spoon. See you again soon!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-27 18:49:47",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 459,
+    "businessId": 3,
+    "googleReviewId": "demo-1793126987372-6x2liz",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-10-27 18:49:47",
+    "fetchedAt": "2026-10-27 18:49:47",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to Golden Crust Bakery for a flawless visit.\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
+  },
+  {
+    "id": 460,
+    "businessId": 4,
+    "googleReviewId": "demo-1793126987413-66etrd",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-10-27 18:49:47",
+    "fetchedAt": "2026-10-27 18:49:47",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at Urban Verde — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Urban Verde 🌱",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
