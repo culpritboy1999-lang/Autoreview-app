@@ -7445,5 +7445,37 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 461,
+    "businessId": 2,
+    "googleReviewId": "demo-1793141216557-ccd8vu",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-10-27 22:46:56",
+    "fetchedAt": "2026-10-27 22:46:56",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at The Rustic Spoon — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— The Rustic Spoon Team",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 462,
+    "businessId": 5,
+    "googleReviewId": "demo-1793141216751-xmxcqy",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-10-27 22:46:56",
+    "fetchedAt": "2026-10-27 22:46:56",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Danube Bites — can't wait to welcome you back!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-27 22:46:56",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
