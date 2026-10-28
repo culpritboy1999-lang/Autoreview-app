@@ -7477,5 +7477,53 @@
     "repliedAt": "2026-10-27 22:46:56",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 463,
+    "businessId": 2,
+    "googleReviewId": "demo-1793152589552-pwdf6d",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-10-28 01:56:29",
+    "fetchedAt": "2026-10-28 01:56:29",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to The Rustic Spoon — can't wait to welcome you back!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-28 01:56:29",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 464,
+    "businessId": 3,
+    "googleReviewId": "demo-1793152589741-5ky3ak",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-10-28 01:56:29",
+    "fetchedAt": "2026-10-28 01:56:29",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Golden Crust Bakery. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 465,
+    "businessId": 4,
+    "googleReviewId": "demo-1793152589786-nnan6q",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-10-28 01:56:29",
+    "fetchedAt": "2026-10-28 01:56:29",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Urban Verde. See you again soon!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-28 01:56:29",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
