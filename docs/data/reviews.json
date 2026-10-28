@@ -7589,5 +7589,53 @@
     "repliedAt": "2026-10-28 14:44:01",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 470,
+    "businessId": 1,
+    "googleReviewId": "demo-1793217610343-yu54u9",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-10-28 20:00:10",
+    "fetchedAt": "2026-10-28 20:00:10",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Café Aroma — can't wait to welcome you back!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-28 20:00:10",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 471,
+    "businessId": 2,
+    "googleReviewId": "demo-1793217610523-jn3ygu",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-10-28 20:00:10",
+    "fetchedAt": "2026-10-28 20:00:10",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to The Rustic Spoon for a flawless visit.\n— The Rustic Spoon Team",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
+  },
+  {
+    "id": 472,
+    "businessId": 5,
+    "googleReviewId": "demo-1793217610560-xkfzcw",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-10-28 20:00:10",
+    "fetchedAt": "2026-10-28 20:00:10",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at Danube Bites. See you again soon!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-28 20:00:10",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
