@@ -7637,5 +7637,21 @@
     "repliedAt": "2026-10-28 20:00:10",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 473,
+    "businessId": 2,
+    "googleReviewId": "demo-1793231830238-f8b8jz",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-10-28 23:57:10",
+    "fetchedAt": "2026-10-28 23:57:10",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at The Rustic Spoon. See you again soon!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-28 23:57:10",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
