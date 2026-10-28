@@ -7557,5 +7557,37 @@
     "repliedAt": "2026-10-28 07:52:39",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 468,
+    "businessId": 3,
+    "googleReviewId": "demo-1793198641725-v1h0lq",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-10-28 14:44:01",
+    "fetchedAt": "2026-10-28 14:44:01",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Golden Crust Bakery. See you again soon!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-28 14:44:01",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 469,
+    "businessId": 4,
+    "googleReviewId": "demo-1793198641917-u9m82a",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-10-28 14:44:01",
+    "fetchedAt": "2026-10-28 14:44:01",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Urban Verde — can't wait to welcome you back!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-28 14:44:01",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
