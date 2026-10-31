@@ -8085,5 +8085,37 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 501,
+    "businessId": 1,
+    "googleReviewId": "demo-1793460369859-oi8te3",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-10-31 15:26:09",
+    "fetchedAt": "2026-10-31 15:26:09",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Café Aroma — can't wait to welcome you back!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-31 15:26:10",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 502,
+    "businessId": 5,
+    "googleReviewId": "demo-1793460370044-y5zpy5",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-10-31 15:26:10",
+    "fetchedAt": "2026-10-31 15:26:10",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Danube Bites — can't wait to welcome you back!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-10-31 15:26:10",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
