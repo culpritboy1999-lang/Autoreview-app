@@ -8293,5 +8293,53 @@
     "repliedAt": "2026-11-01 08:29:15",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 514,
+    "businessId": 1,
+    "googleReviewId": "demo-1793546665254-ixig8f",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-11-01 15:24:25",
+    "fetchedAt": "2026-11-01 15:24:25",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Café Aroma — can't wait to welcome you back!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-01 15:24:25",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 515,
+    "businessId": 2,
+    "googleReviewId": "demo-1793546665443-198fy7",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-11-01 15:24:25",
+    "fetchedAt": "2026-11-01 15:24:25",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to The Rustic Spoon — can't wait to welcome you back!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-01 15:24:25",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 516,
+    "businessId": 3,
+    "googleReviewId": "demo-1793546665519-rmxzez",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-11-01 15:24:25",
+    "fetchedAt": "2026-11-01 15:24:25",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at Golden Crust Bakery — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]

@@ -40,16 +40,16 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "65% positive · 11% mixed · 25% negative across 122 reviews.",
+    "sentimentSummary": "65% positive · 10% mixed · 25% negative across 125 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-31 22:39:44"
+    "generatedAt": "2026-11-01 15:24:25"
   },
   "2": {
     "about": "The Rustic Spoon collects strongly positive feedback — about 56% of reviewers rate it 4★ or 5★, with “absolutely”, “great”, “lovely” recurring across happy reviews.",
     "famousFor": [
       {
         "name": "Absolutely",
-        "why": "praised in 23+ reviews"
+        "why": "praised in 24+ reviews"
       },
       {
         "name": "Great",
@@ -83,36 +83,36 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "56% positive · 10% mixed · 34% negative across 99 reviews.",
+    "sentimentSummary": "56% positive · 10% mixed · 34% negative across 100 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-31 22:39:44"
+    "generatedAt": "2026-11-01 15:24:25"
   },
   "3": {
-    "about": "Golden Crust Bakery collects strongly positive feedback — about 54% of reviewers rate it 4★ or 5★, with “absolutely”, “staff”, “perfect” recurring across happy reviews.",
+    "about": "Golden Crust Bakery collects strongly positive feedback — about 54% of reviewers rate it 4★ or 5★, with “absolutely”, “perfect”, “staff” recurring across happy reviews.",
     "famousFor": [
       {
         "name": "Absolutely",
-        "why": "praised in 25+ reviews"
+        "why": "praised in 26+ reviews"
+      },
+      {
+        "name": "Perfect",
+        "why": "praised in 15+ reviews"
       },
       {
         "name": "Staff",
         "why": "praised in 14+ reviews"
       },
       {
-        "name": "Perfect",
+        "name": "Good",
         "why": "praised in 14+ reviews"
       },
       {
-        "name": "Everything",
-        "why": "praised in 13+ reviews"
+        "name": "Experience",
+        "why": "praised in 14+ reviews"
       },
       {
-        "name": "Delicious",
-        "why": "praised in 13+ reviews"
-      },
-      {
-        "name": "Faces",
-        "why": "praised in 13+ reviews"
+        "name": "Overall",
+        "why": "praised in 14+ reviews"
       }
     ],
     "thingsToNotice": [
@@ -127,9 +127,9 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "54% positive · 17% mixed · 29% negative across 94 reviews.",
+    "sentimentSummary": "54% positive · 17% mixed · 29% negative across 96 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-31 22:39:44"
+    "generatedAt": "2026-11-01 15:24:25"
   },
   "4": {
     "about": "Urban Verde collects strongly positive feedback — about 55% of reviewers rate it 4★ or 5★, with “absolutely”, “delicious”, “staff” recurring across happy reviews.",
@@ -173,10 +173,10 @@
     ],
     "sentimentSummary": "55% positive · 13% mixed · 32% negative across 97 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-31 22:39:44"
+    "generatedAt": "2026-11-01 15:24:25"
   },
   "5": {
-    "about": "Danube Bites collects strongly positive feedback — about 59% of reviewers rate it 4★ or 5★, with “absolutely”, “enjoyed”, “small” recurring across happy reviews.",
+    "about": "Danube Bites collects strongly positive feedback — about 58% of reviewers rate it 4★ or 5★, with “absolutely”, “enjoyed”, “small” recurring across happy reviews.",
     "famousFor": [
       {
         "name": "Absolutely",
@@ -215,8 +215,8 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "59% positive · 15% mixed · 26% negative across 97 reviews.",
+    "sentimentSummary": "58% positive · 15% mixed · 27% negative across 98 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-10-31 22:39:44"
+    "generatedAt": "2026-11-01 15:24:25"
   }
 }
