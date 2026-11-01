@@ -8229,5 +8229,37 @@
     "repliedAt": "2026-10-31 22:39:44",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 510,
+    "businessId": 1,
+    "googleReviewId": "demo-1793497415095-lzvs2s",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-11-01 01:43:35",
+    "fetchedAt": "2026-11-01 01:43:35",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Café Aroma — can't wait to welcome you back!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-01 01:43:35",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 511,
+    "businessId": 5,
+    "googleReviewId": "demo-1793497415249-1gwequ",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-11-01 01:43:35",
+    "fetchedAt": "2026-11-01 01:43:35",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at Danube Bites — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Danube Bites crew 🧡",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
