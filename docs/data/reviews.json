@@ -8405,5 +8405,53 @@
     "repliedAt": "2026-11-01 23:15:34",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 521,
+    "businessId": 1,
+    "googleReviewId": "demo-1793587174492-p3i80x",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-11-02 02:39:34",
+    "fetchedAt": "2026-11-02 02:39:34",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at Café Aroma. See you again soon!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-02 02:39:34",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 522,
+    "businessId": 3,
+    "googleReviewId": "demo-1793587174723-wggbrb",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-11-02 02:39:34",
+    "fetchedAt": "2026-11-02 02:39:34",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at Golden Crust Bakery — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 523,
+    "businessId": 4,
+    "googleReviewId": "demo-1793587174788-zwcntf",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-11-02 02:39:34",
+    "fetchedAt": "2026-11-02 02:39:34",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at Urban Verde. See you again soon!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-02 02:39:34",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
