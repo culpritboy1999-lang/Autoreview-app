@@ -8453,5 +8453,21 @@
     "repliedAt": "2026-11-02 02:39:34",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 524,
+    "businessId": 2,
+    "googleReviewId": "demo-1793614959046-k2d38e",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-11-02 10:22:39",
+    "fetchedAt": "2026-11-02 10:22:39",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to The Rustic Spoon for a flawless visit.\n— The Rustic Spoon Team",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
   }
 ]
