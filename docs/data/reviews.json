@@ -8581,5 +8581,37 @@
     "repliedAt": "2026-11-03 10:21:00",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 532,
+    "businessId": 1,
+    "googleReviewId": "demo-1793728632786-v1l98u",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-11-03 17:57:12",
+    "fetchedAt": "2026-11-03 17:57:12",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Café Aroma — can't wait to welcome you back!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-03 17:57:13",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 533,
+    "businessId": 5,
+    "googleReviewId": "demo-1793728633001-4s7c2w",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-11-03 17:57:13",
+    "fetchedAt": "2026-11-03 17:57:13",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Danube Bites — can't wait to welcome you back!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-03 17:57:13",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
