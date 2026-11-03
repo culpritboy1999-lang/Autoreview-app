@@ -8501,5 +8501,37 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 527,
+    "businessId": 2,
+    "googleReviewId": "demo-1793673085134-r1j6un",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-11-03 02:31:25",
+    "fetchedAt": "2026-11-03 02:31:25",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at The Rustic Spoon — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— The Rustic Spoon Team",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 528,
+    "businessId": 3,
+    "googleReviewId": "demo-1793673085374-pxj2nb",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-11-03 02:31:25",
+    "fetchedAt": "2026-11-03 02:31:25",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at Golden Crust Bakery. See you again soon!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-03 02:31:25",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
