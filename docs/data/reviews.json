@@ -9045,5 +9045,37 @@
     "repliedAt": "2026-11-07 14:33:08",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 561,
+    "businessId": 4,
+    "googleReviewId": "demo-1794078795080-7gbvqd",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-11-07 19:13:15",
+    "fetchedAt": "2026-11-07 19:13:15",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Urban Verde — can't wait to welcome you back!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-07 19:13:15",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 562,
+    "businessId": 5,
+    "googleReviewId": "demo-1794078795247-82yo1o",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-11-07 19:13:15",
+    "fetchedAt": "2026-11-07 19:13:15",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Danube Bites — can't wait to welcome you back!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-07 19:13:15",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
