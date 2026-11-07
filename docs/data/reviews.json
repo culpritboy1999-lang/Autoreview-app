@@ -8949,5 +8949,53 @@
     "repliedAt": "2026-11-06 21:40:55",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 555,
+    "businessId": 1,
+    "googleReviewId": "demo-1794014928891-k0tmc0",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-11-07 01:28:48",
+    "fetchedAt": "2026-11-07 01:28:48",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Café Aroma. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Team Café Aroma ☕",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 556,
+    "businessId": 4,
+    "googleReviewId": "demo-1794014929125-t8ieud",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-11-07 01:28:49",
+    "fetchedAt": "2026-11-07 01:28:49",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Urban Verde — can't wait to welcome you back!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-07 01:28:49",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 557,
+    "businessId": 5,
+    "googleReviewId": "demo-1794014929193-6yj6xw",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-11-07 01:28:49",
+    "fetchedAt": "2026-11-07 01:28:49",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at Danube Bites — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Danube Bites crew 🧡",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
