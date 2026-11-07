@@ -8997,5 +8997,37 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 558,
+    "businessId": 1,
+    "googleReviewId": "demo-1794037100400-xy1tdz",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-11-07 07:38:20",
+    "fetchedAt": "2026-11-07 07:38:20",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Café Aroma — can't wait to welcome you back!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-07 07:38:20",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 559,
+    "businessId": 4,
+    "googleReviewId": "demo-1794037100571-q4rbvt",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-11-07 07:38:20",
+    "fetchedAt": "2026-11-07 07:38:20",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Urban Verde — can't wait to welcome you back!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-07 07:38:20",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
