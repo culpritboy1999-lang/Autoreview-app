@@ -9029,5 +9029,21 @@
     "repliedAt": "2026-11-07 07:38:20",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 560,
+    "businessId": 5,
+    "googleReviewId": "demo-1794061988716-p4uoza",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-11-07 14:33:08",
+    "fetchedAt": "2026-11-07 14:33:08",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Danube Bites. See you again soon!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-07 14:33:08",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
