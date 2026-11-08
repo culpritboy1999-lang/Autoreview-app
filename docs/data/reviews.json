@@ -9205,5 +9205,37 @@
     "repliedAt": "2026-11-08 20:03:54",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 571,
+    "businessId": 2,
+    "googleReviewId": "demo-1794181864115-g9tfsm",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-11-08 23:51:04",
+    "fetchedAt": "2026-11-08 23:51:04",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to The Rustic Spoon for a flawless visit.\n— The Rustic Spoon Team",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
+  },
+  {
+    "id": 572,
+    "businessId": 5,
+    "googleReviewId": "demo-1794181864314-n28j5x",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-11-08 23:51:04",
+    "fetchedAt": "2026-11-08 23:51:04",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Danube Bites. See you again soon!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-08 23:51:04",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
