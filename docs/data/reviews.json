@@ -9189,5 +9189,21 @@
     "repliedAt": "2026-11-08 15:41:20",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 570,
+    "businessId": 1,
+    "googleReviewId": "demo-1794168234565-83qujq",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-11-08 20:03:54",
+    "fetchedAt": "2026-11-08 20:03:54",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Café Aroma — can't wait to welcome you back!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-08 20:03:54",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
