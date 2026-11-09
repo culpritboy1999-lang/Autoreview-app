@@ -8,7 +8,7 @@
     "googleLocationName": "locations/demo_cafe-aroma",
     "placeId": "demo_place_cafe-aroma",
     "ratingAvg": 4.4,
-    "reviewsTotal": 90,
+    "reviewsTotal": 91,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "warm",
@@ -30,7 +30,7 @@
     "googleLocationName": "locations/demo_rustic-spoon",
     "placeId": "demo_place_rustic-spoon",
     "ratingAvg": 4.4,
-    "reviewsTotal": 66,
+    "reviewsTotal": 67,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "professional",
@@ -52,7 +52,7 @@
     "googleLocationName": "locations/demo_golden-crust",
     "placeId": "demo_place_golden-crust",
     "ratingAvg": 4.5,
-    "reviewsTotal": 59,
+    "reviewsTotal": 60,
     "createdAt": "2026-09-22 13:47:43",
     "brand": {
       "tone": "playful",
