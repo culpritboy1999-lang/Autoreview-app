@@ -40,9 +40,9 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "64% positive · 10% mixed · 26% negative across 135 reviews.",
+    "sentimentSummary": "64% positive · 9% mixed · 26% negative across 137 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-11-08 15:41:20"
+    "generatedAt": "2026-11-09 03:53:04"
   },
   "2": {
     "about": "The Rustic Spoon collects strongly positive feedback — about 56% of reviewers rate it 4★ or 5★, with “absolutely”, “great”, “lovely” recurring across happy reviews.",
@@ -83,9 +83,9 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "56% positive · 12% mixed · 32% negative across 112 reviews.",
+    "sentimentSummary": "56% positive · 12% mixed · 32% negative across 113 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-11-08 15:41:20"
+    "generatedAt": "2026-11-09 03:53:04"
   },
   "3": {
     "about": "Golden Crust Bakery collects strongly positive feedback — about 56% of reviewers rate it 4★ or 5★, with “absolutely”, “perfect”, “good” recurring across happy reviews.",
@@ -129,7 +129,7 @@
     ],
     "sentimentSummary": "56% positive · 16% mixed · 28% negative across 102 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-11-08 15:41:20"
+    "generatedAt": "2026-11-09 03:53:04"
   },
   "4": {
     "about": "Urban Verde collects strongly positive feedback — about 56% of reviewers rate it 4★ or 5★, with “absolutely”, “good”, “experience” recurring across happy reviews.",
@@ -173,14 +173,22 @@
     ],
     "sentimentSummary": "56% positive · 13% mixed · 31% negative across 107 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-11-08 15:41:20"
+    "generatedAt": "2026-11-09 03:53:04"
   },
   "5": {
-    "about": "Danube Bites collects strongly positive feedback — about 58% of reviewers rate it 4★ or 5★, with “absolutely”, “enjoyed”, “small” recurring across happy reviews.",
+    "about": "Danube Bites collects strongly positive feedback — about 58% of reviewers rate it 4★ or 5★, with “absolutely”, “warm”, “staff” recurring across happy reviews.",
     "famousFor": [
       {
         "name": "Absolutely",
-        "why": "praised in 29+ reviews"
+        "why": "praised in 30+ reviews"
+      },
+      {
+        "name": "Warm",
+        "why": "praised in 16+ reviews"
+      },
+      {
+        "name": "Staff",
+        "why": "praised in 16+ reviews"
       },
       {
         "name": "Enjoyed",
@@ -192,14 +200,6 @@
       },
       {
         "name": "Hiccup",
-        "why": "praised in 16+ reviews"
-      },
-      {
-        "name": "Wait",
-        "why": "praised in 16+ reviews"
-      },
-      {
-        "name": "Quality",
         "why": "praised in 16+ reviews"
       }
     ],
@@ -215,8 +215,8 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "58% positive · 14% mixed · 28% negative across 113 reviews.",
+    "sentimentSummary": "58% positive · 14% mixed · 28% negative across 115 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-11-08 15:41:20"
+    "generatedAt": "2026-11-09 03:53:04"
   }
 }
