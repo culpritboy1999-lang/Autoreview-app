@@ -9397,5 +9397,37 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "mixed"
+  },
+  {
+    "id": 583,
+    "businessId": 2,
+    "googleReviewId": "demo-1794284770712-x9a0d9",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-11-10 04:26:10",
+    "fetchedAt": "2026-11-10 04:26:10",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to The Rustic Spoon — can't wait to welcome you back!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-10 04:26:10",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 584,
+    "businessId": 4,
+    "googleReviewId": "demo-1794284770980-2f1tr6",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-11-10 04:26:10",
+    "fetchedAt": "2026-11-10 04:26:10",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Urban Verde — can't wait to welcome you back!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-10 04:26:11",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
