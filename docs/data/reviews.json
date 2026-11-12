@@ -9637,5 +9637,53 @@
     "repliedAt": "2026-11-11 22:09:04",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 598,
+    "businessId": 2,
+    "googleReviewId": "demo-1794453112998-g02gho",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-11-12 03:11:52",
+    "fetchedAt": "2026-11-12 03:11:52",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at The Rustic Spoon. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— The Rustic Spoon Team",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 599,
+    "businessId": 3,
+    "googleReviewId": "demo-1794453113166-jslcr4",
+    "author": "Jon B.",
+    "rating": 2,
+    "text": "Not our best visit — it felt disorganised and the food took very long to arrive.",
+    "postedAt": "2026-11-12 03:11:53",
+    "fetchedAt": "2026-11-12 03:11:53",
+    "status": "pending_approval",
+    "replyText": "Jon, we're truly sorry about your experience at Golden Crust Bakery. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
+  },
+  {
+    "id": 600,
+    "businessId": 4,
+    "googleReviewId": "demo-1794453113199-0c0eto",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-11-12 03:11:53",
+    "fetchedAt": "2026-11-12 03:11:53",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at Urban Verde — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Urban Verde 🌱",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
