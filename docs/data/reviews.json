@@ -9685,5 +9685,21 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 601,
+    "businessId": 1,
+    "googleReviewId": "demo-1794483352101-c5cjrx",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-11-12 11:35:52",
+    "fetchedAt": "2026-11-12 11:35:52",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at Café Aroma. See you again soon!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-12 11:35:52",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
