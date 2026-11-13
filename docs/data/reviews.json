@@ -9701,5 +9701,37 @@
     "repliedAt": "2026-11-12 11:35:52",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 602,
+    "businessId": 1,
+    "googleReviewId": "demo-1794530168401-1dcp17",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-11-13 00:36:08",
+    "fetchedAt": "2026-11-13 00:36:08",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at Café Aroma. See you again soon!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-13 00:36:08",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 603,
+    "businessId": 3,
+    "googleReviewId": "demo-1794530168538-xlf0ta",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-11-13 00:36:08",
+    "fetchedAt": "2026-11-13 00:36:08",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Golden Crust Bakery — can't wait to welcome you back!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-13 00:36:08",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
