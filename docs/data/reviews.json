@@ -9781,5 +9781,53 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 607,
+    "businessId": 3,
+    "googleReviewId": "demo-1794584218034-lz9i2v",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-11-13 15:36:58",
+    "fetchedAt": "2026-11-13 15:36:58",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Golden Crust Bakery. See you again soon!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-13 15:36:58",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 608,
+    "businessId": 4,
+    "googleReviewId": "demo-1794584218523-kb1qd0",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-11-13 15:36:58",
+    "fetchedAt": "2026-11-13 15:36:58",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Urban Verde. See you again soon!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-13 15:36:58",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 609,
+    "businessId": 5,
+    "googleReviewId": "demo-1794584218557-uymjr9",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-11-13 15:36:58",
+    "fetchedAt": "2026-11-13 15:36:58",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Danube Bites — can't wait to welcome you back!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-13 15:36:58",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
