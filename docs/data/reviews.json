@@ -10021,5 +10021,37 @@
     "repliedAt": "2026-11-14 23:45:08",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 622,
+    "businessId": 1,
+    "googleReviewId": "demo-1794715402378-u610o4",
+    "author": "Leo V.",
+    "rating": 5,
+    "text": "Top marks! Friendly faces, great coffee/food and a lovely atmosphere. A new favourite.",
+    "postedAt": "2026-11-15 04:03:22",
+    "fetchedAt": "2026-11-15 04:03:22",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Leo! Reviews like yours make our day at Café Aroma. See you again soon!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-15 04:03:22",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 623,
+    "businessId": 2,
+    "googleReviewId": "demo-1794715402642-vkgnib",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-11-15 04:03:22",
+    "fetchedAt": "2026-11-15 04:03:22",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at The Rustic Spoon — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— The Rustic Spoon Team",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
