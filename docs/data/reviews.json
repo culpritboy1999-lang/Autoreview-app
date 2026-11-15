@@ -10085,5 +10085,37 @@
     "repliedAt": "2026-11-15 18:59:53",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 626,
+    "businessId": 2,
+    "googleReviewId": "demo-1794784830331-y9hgvc",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-11-15 23:20:30",
+    "fetchedAt": "2026-11-15 23:20:30",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at The Rustic Spoon. See you again soon!\n— The Rustic Spoon Team",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-15 23:20:30",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 627,
+    "businessId": 4,
+    "googleReviewId": "demo-1794784830529-lheix7",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-11-15 23:20:30",
+    "fetchedAt": "2026-11-15 23:20:30",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to Urban Verde for a flawless visit.\n— Urban Verde 🌱",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
   }
 ]
