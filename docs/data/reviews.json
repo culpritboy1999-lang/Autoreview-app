@@ -10245,5 +10245,21 @@
     "repliedAt": "2026-11-17 03:19:30",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 636,
+    "businessId": 3,
+    "googleReviewId": "demo-1794917560608-1ixdf0",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-11-17 12:12:40",
+    "fetchedAt": "2026-11-17 12:12:40",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Golden Crust Bakery — can't wait to welcome you back!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-17 12:12:40",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
