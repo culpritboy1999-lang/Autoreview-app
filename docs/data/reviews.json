@@ -10533,5 +10533,37 @@
     "repliedAt": "2026-11-20 00:45:07",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 654,
+    "businessId": 3,
+    "googleReviewId": "demo-1795161330181-hy5w6v",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-11-20 07:55:30",
+    "fetchedAt": "2026-11-20 07:55:30",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Golden Crust Bakery — can't wait to welcome you back!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-20 07:55:30",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 655,
+    "businessId": 5,
+    "googleReviewId": "demo-1795161330364-herd5o",
+    "author": "Mike D.",
+    "rating": 4,
+    "text": "Really enjoyed it. Small hiccup with the wait, but the quality more than made up for it. Will be back.",
+    "postedAt": "2026-11-20 07:55:30",
+    "fetchedAt": "2026-11-20 07:55:30",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Mike! We're delighted you enjoyed your visit to Danube Bites — can't wait to welcome you back!\n— Danube Bites crew 🧡",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-20 07:55:30",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
