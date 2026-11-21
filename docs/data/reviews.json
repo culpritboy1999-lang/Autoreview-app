@@ -10645,5 +10645,53 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 661,
+    "businessId": 2,
+    "googleReviewId": "demo-1795262156563-0ntj7n",
+    "author": "Edit F.",
+    "rating": 3,
+    "text": "Decent overall. Some things were great, others need a bit of polish. A mixed visit.",
+    "postedAt": "2026-11-21 11:55:56",
+    "fetchedAt": "2026-11-21 11:55:56",
+    "status": "pending_approval",
+    "replyText": "Thank you for the balanced feedback, Edit. We hear you on the mixed experience and we're already working on it. We hope to welcome you back to The Rustic Spoon for a flawless visit.\n— The Rustic Spoon Team",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "mixed"
+  },
+  {
+    "id": 662,
+    "businessId": 3,
+    "googleReviewId": "demo-1795262156808-k7blxq",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-11-21 11:55:56",
+    "fetchedAt": "2026-11-21 11:55:56",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Golden Crust Bakery — can't wait to welcome you back!\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-21 11:55:56",
+    "topics": [],
+    "sentiment": "positive"
+  },
+  {
+    "id": 663,
+    "businessId": 4,
+    "googleReviewId": "demo-1795262156856-5ypyz2",
+    "author": "Hanna W.",
+    "rating": 4,
+    "text": "Very good experience overall — tiny details kept it from perfect, but I would absolutely return.",
+    "postedAt": "2026-11-21 11:55:56",
+    "fetchedAt": "2026-11-21 11:55:56",
+    "status": "auto_replied",
+    "replyText": "Thank you for the kind words, Hanna! We're delighted you enjoyed your visit to Urban Verde — can't wait to welcome you back!\n— Urban Verde 🌱",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-21 11:55:56",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
