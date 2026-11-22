@@ -40,12 +40,12 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "65% positive · 10% mixed · 25% negative across 153 reviews.",
+    "sentimentSummary": "65% positive · 10% mixed · 25% negative across 154 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-11-22 04:21:06"
+    "generatedAt": "2026-11-22 20:04:17"
   },
   "2": {
-    "about": "The Rustic Spoon collects strongly positive feedback — about 55% of reviewers rate it 4★ or 5★, with “absolutely”, “great”, “lovely” recurring across happy reviews.",
+    "about": "The Rustic Spoon collects strongly positive feedback — about 56% of reviewers rate it 4★ or 5★, with “absolutely”, “great”, “lovely” recurring across happy reviews.",
     "famousFor": [
       {
         "name": "Absolutely",
@@ -53,23 +53,23 @@
       },
       {
         "name": "Great",
-        "why": "praised in 24+ reviews"
+        "why": "praised in 25+ reviews"
       },
       {
         "name": "Lovely",
-        "why": "praised in 24+ reviews"
+        "why": "praised in 25+ reviews"
       },
       {
         "name": "Food",
-        "why": "praised in 24+ reviews"
+        "why": "praised in 25+ reviews"
       },
       {
         "name": "Marks",
-        "why": "praised in 23+ reviews"
+        "why": "praised in 24+ reviews"
       },
       {
         "name": "Friendly",
-        "why": "praised in 23+ reviews"
+        "why": "praised in 24+ reviews"
       }
     ],
     "thingsToNotice": [
@@ -83,16 +83,16 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "55% positive · 14% mixed · 31% negative across 137 reviews.",
+    "sentimentSummary": "56% positive · 14% mixed · 30% negative across 138 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-11-22 04:21:06"
+    "generatedAt": "2026-11-22 20:04:17"
   },
   "3": {
-    "about": "Golden Crust Bakery collects strongly positive feedback — about 56% of reviewers rate it 4★ or 5★, with “absolutely”, “perfect”, “good” recurring across happy reviews.",
+    "about": "Golden Crust Bakery collects strongly positive feedback — about 57% of reviewers rate it 4★ or 5★, with “absolutely”, “perfect”, “good” recurring across happy reviews.",
     "famousFor": [
       {
         "name": "Absolutely",
-        "why": "praised in 36+ reviews"
+        "why": "praised in 38+ reviews"
       },
       {
         "name": "Perfect",
@@ -127,9 +127,9 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "56% positive · 16% mixed · 28% negative across 120 reviews.",
+    "sentimentSummary": "57% positive · 16% mixed · 28% negative across 122 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-11-22 04:21:06"
+    "generatedAt": "2026-11-22 20:04:17"
   },
   "4": {
     "about": "Urban Verde collects strongly positive feedback — about 55% of reviewers rate it 4★ or 5★, with “absolutely”, “good”, “experience” recurring across happy reviews.",
@@ -171,16 +171,16 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "55% positive · 15% mixed · 30% negative across 127 reviews.",
+    "sentimentSummary": "55% positive · 15% mixed · 30% negative across 128 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-11-22 04:21:06"
+    "generatedAt": "2026-11-22 20:04:17"
   },
   "5": {
     "about": "Danube Bites collects strongly positive feedback — about 60% of reviewers rate it 4★ or 5★, with “absolutely”, “enjoyed”, “small” recurring across happy reviews.",
     "famousFor": [
       {
         "name": "Absolutely",
-        "why": "praised in 32+ reviews"
+        "why": "praised in 33+ reviews"
       },
       {
         "name": "Enjoyed",
@@ -215,8 +215,8 @@
       "Visitors exploring the area",
       "Food-first travellers"
     ],
-    "sentimentSummary": "60% positive · 14% mixed · 26% negative across 132 reviews.",
+    "sentimentSummary": "60% positive · 14% mixed · 26% negative across 133 reviews.",
     "engine": "google/gemma-2-9b-it:free",
-    "generatedAt": "2026-11-22 04:21:06"
+    "generatedAt": "2026-11-22 20:04:17"
   }
 }
