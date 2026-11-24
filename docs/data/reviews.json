@@ -11029,5 +11029,21 @@
     "repliedAt": "2026-11-24 05:05:07",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 685,
+    "businessId": 3,
+    "googleReviewId": "demo-1795536248739-9q97po",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-11-24 16:04:08",
+    "fetchedAt": "2026-11-24 16:04:08",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at Golden Crust Bakery — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— Your friends at Golden Crust 🥐",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
