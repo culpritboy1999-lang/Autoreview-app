@@ -11093,5 +11093,21 @@
     "repliedAt": "2026-11-25 09:31:08",
     "topics": [],
     "sentiment": "positive"
+  },
+  {
+    "id": 689,
+    "businessId": 2,
+    "googleReviewId": "demo-1795635654744-atqs1v",
+    "author": "Kata M.",
+    "rating": 1,
+    "text": "Honestly disappointing. Rude service and poor quality for the price.",
+    "postedAt": "2026-11-25 19:40:54",
+    "fetchedAt": "2026-11-25 19:40:54",
+    "status": "pending_approval",
+    "replyText": "Kata, we're truly sorry about your experience at The Rustic Spoon — especially the service you received. This isn't our standard, and your feedback has gone straight to the team. We'd genuinely love another chance to show you our best.\n— The Rustic Spoon Team",
+    "replySource": "ai_draft",
+    "repliedAt": null,
+    "topics": [],
+    "sentiment": "negative"
   }
 ]
