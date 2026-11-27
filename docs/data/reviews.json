@@ -11317,5 +11317,21 @@
     "repliedAt": null,
     "topics": [],
     "sentiment": "negative"
+  },
+  {
+    "id": 703,
+    "businessId": 1,
+    "googleReviewId": "demo-1795815904084-kkeug0",
+    "author": "Sára J.",
+    "rating": 5,
+    "text": "Absolutely wonderful — warm staff, beautiful space and everything we tried was delicious. Highly recommend!",
+    "postedAt": "2026-11-27 21:45:04",
+    "fetchedAt": "2026-11-27 21:45:04",
+    "status": "auto_replied",
+    "replyText": "Thank you so much, Sára! Reviews like yours make our day at Café Aroma. See you again soon!\n— Team Café Aroma ☕",
+    "replySource": "ai_auto",
+    "repliedAt": "2026-11-27 21:45:04",
+    "topics": [],
+    "sentiment": "positive"
   }
 ]
